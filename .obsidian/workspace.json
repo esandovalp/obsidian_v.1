@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caso Agoda v1.md",
+                "file": "Caso_Agoda_v1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caso Agoda v1.md",
+                "file": "Caso_Agoda_v1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caso Agoda v1.md",
+                "file": "Caso_Agoda_v1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caso Agoda v1.md"
+                "file": "Caso_Agoda_v1.md"
               }
             }
           }
@@ -157,6 +157,6 @@
   },
   "active": "3620517773ff36e7",
   "lastOpenFiles": [
-    "Caso Agoda v1.md"
+    "Caso_Agoda_v1.md"
   ]
 }
