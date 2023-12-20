@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "d217c53dab00a6f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7d45d0e346673a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08283cfe5ac35d48",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "72e0a418253d0c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Talking to Strangers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2656e28bdc7ec62",
+    "type": "split",
+    "children": [
+      {
+        "id": "48b2d70b5bb2d0a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cabeb7fd8a27e9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70f5a05d420eb702",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e83ec36c9a4d1d2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c9d66942d0929fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cd044fd6e4235a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e7410b8eca6b797",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Talking to Strangers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "179aadae7cd4ef6c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Talking to Strangers.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46982abda12ff191",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ff1b4507f10893fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Talking to Strangers.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "72e0a418253d0c19",
+  "lastOpenFiles": [
+    "Talking to Strangers.md",
+    "technologyConsequencesTable.png",
+    "squizophrenia.md",
+    "generations.md",
+    "A Beautiful Mind.md",
+    "Dave Chapelle.md"
+  ]
+}
