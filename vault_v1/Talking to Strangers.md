@@ -15,3 +15,14 @@ Puzzle Number One: Why can’t we tell when the stranger in front of us is lying
 
 Neville Chamberlain quería conocer a Hitler en 1938, ya que ningún alto oficial de los aliados lo había conocido. Cuando lo conoció pensó que no quería ir a una guerra. En general todos los que estuvieron con Hitler pensaron que no quería ir a una guerra, evidentemente estaban mal, y todos los que no lo conocieron pensaban lo correcto. Todos creemos entender a alguien cuando los vemos a los ojos y juzgamos, pero Chamberlain y Halafax hicieron eso con Hitler y salieron con una impresión completamente errónea. 
 
+Puzzle Number Two: How is it that meeting a stranger can sometimes make us worse at making sense of that person than not meeting them?
+
+	“We have, in other words, CIA officers who cannot make sense of their spies, judges who cannot make sense of their defendants, and prime ministers who cannot make sense of their adversaries. We have people struggling with their first impressions of a stranger. We have people struggling when they have months to understand a stranger. We have people struggling when they meet with someone only once, and people struggling when they return to the stranger again and again. They struggle with assessing a stranger’s honesty. They struggle with a stranger’s character. They struggle with a stranger’s intent.
+         It’s a mess.”
+
+Los desconocidos (strangers) no son fáciles. 
+
+# Part Two. Default to Truth
+
+## Chapter Three: The Queen of Cuba 
+
