@@ -4,19 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c7d45d0e346673a8",
+        "id": "48c090d8bff72767",
         "type": "tabs",
         "children": [
           {
-            "id": "08283cfe5ac35d48",
+            "id": "df9045d7c1f55ae6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Rick and Morty Season 7.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "72e0a418253d0c19",
+            "id": "39b8c281cf8fb0dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72e0a418253d0c19",
+  "active": "39b8c281cf8fb0dd",
   "lastOpenFiles": [
+    "Rick and Morty Season 7.md",
     "Talking to Strangers.md",
     "technologyConsequencesTable.png",
     "squizophrenia.md",
