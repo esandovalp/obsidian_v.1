@@ -33,3 +33,15 @@ We default to truth.
 
 Le crees a alguien porque no tienes las suficientes dudas sobre ellos. 
 
+## Chapter Four: The Holy Fool 
+
+“Tim Levine reminds us, lies are rare. And those lies that are told are told by a very small subset of people. That’s why it doesn’t matter so much that we are terrible at detecting lies in real life. Under the circumstances, in fact, defaulting to truth makes logical sense. If the person behind the counter at the coffee shop says your total with tax is $6.74, you can do the math yourself to double-check their calculations, holding up the line and wasting thirty seconds of your time. Or you can simply assume the salesperson is telling you the truth, because on balance most people do tell the truth.”
+
+## Chapter Five: The Boy in the Shower
+
+“...doubts are not the enemy of belief; they are its companion.”
+
+“Default to truth becomes an issue when we are forced to choose between two alternatives, one of which is likely and the other of which is impossible to imagine”
+
+“Default to truth biases us in favor of the most likely interpretation.”
+
