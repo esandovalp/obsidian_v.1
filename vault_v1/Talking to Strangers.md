@@ -17,12 +17,19 @@ Neville Chamberlain quería conocer a Hitler en 1938, ya que ningún alto oficia
 
 Puzzle Number Two: How is it that meeting a stranger can sometimes make us worse at making sense of that person than not meeting them?
 
-	“We have, in other words, CIA officers who cannot make sense of their spies, judges who cannot make sense of their defendants, and prime ministers who cannot make sense of their adversaries. We have people struggling with their first impressions of a stranger. We have people struggling when they have months to understand a stranger. We have people struggling when they meet with someone only once, and people struggling when they return to the stranger again and again. They struggle with assessing a stranger’s honesty. They struggle with a stranger’s character. They struggle with a stranger’s intent.
-         It’s a mess.”
+“We have, in other words, CIA officers who cannot make sense of their spies, judges who cannot make sense of their defendants, and prime ministers who cannot make sense of their adversaries. We have people struggling with their first impressions of a stranger. We have people struggling when they have months to understand a stranger. We have people struggling when they meet with someone only once, and people struggling when they return to the stranger again and again. They struggle with assessing a stranger’s honesty. They struggle with a stranger’s character. They struggle with a stranger’s intent. It’s a mess.”
 
 Los desconocidos (strangers) no son fáciles. 
 
 # Part Two. Default to Truth
 
 ## Chapter Three: The Queen of Cuba 
+
+“The issue with spies is not that there is something brilliant about them. It is that there is something wrong with us."
+
+Somos pésimos detectando mentiras porque: “We do not behave, in other words, like sober-minded scientists, slowly gathering evidence of the truth or falsity of something before reaching a conclusion. We do the opposite. We start by believing. And we stop believing only when our doubts and misgivings rise to the point where we can no longer explain them away.”
+
+We default to truth.
+
+Le crees a alguien porque no tienes las suficientes dudas sobre ellos. 
 
