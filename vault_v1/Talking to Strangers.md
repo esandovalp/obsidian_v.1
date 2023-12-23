@@ -85,3 +85,9 @@ The judge thought Walker was transparent. But what does “showed remorse” mea
 
 “The outcome of People v. Brock Turner brought a measure of justice to Emily Doe. But so long as we refuse to acknowledge what alcohol does to the interaction between strangers, that evening at Kappa Alpha will be repeated again. And again.”
 
+# Part Four: Lessons
+
+## Chapter Nine. KSM: What Happens When the Stranger is a Terrorist? 
+
+**Summary (UTTP):** “Default to truth is a crucially important strategy that occasionally and unavoidably leads us astray. Transparency is a seemingly commonsense assumption that turns out to be an illusion. Both, however, raise the same question: once we accept our shortcomings, what should we do?”
+
