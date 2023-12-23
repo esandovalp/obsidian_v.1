@@ -75,3 +75,13 @@ The judge thought Walker was transparent. But what does “showed remorse” mea
 
 ## Chapter Eight. Case Study: The Fraternity Party
 
+“Under the best of circumstances, lack of transparency makes the encounter between a man and a woman at a party a problematic event. So what happens when alcohol is added to the mix?”
+
+“The myopia theory was first suggested by psychologists Claude Steele and Robert Josephs. Alcohol makes the thing in the foreground even more salient and the thing in the background less significant. It makes short-term considerations loom large, and more cognitively demanding, longer-term considerations fade away.”
+
+“Drinking puts you at the mercy of your environment. It crowds out everything except the most immediate experiences.”
+
+“Consent is something that two parties negotiate, on the assumption that each side in a negotiation is who they say they are. But how can you determine consent when, at the moment of negotiation, both parties are so far from their true selves?”
+
+“The outcome of People v. Brock Turner brought a measure of justice to Emily Doe. But so long as we refuse to acknowledge what alcohol does to the interaction between strangers, that evening at Kappa Alpha will be repeated again. And again.”
+
