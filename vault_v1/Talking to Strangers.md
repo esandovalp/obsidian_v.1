@@ -119,3 +119,15 @@ Crime in every city was concentrated in a tiny number of street segments. Like s
 
 ## Chapter Eleven. Case Study: The Kansas City Experiments
 
+“And what was the principal implication of coupling? That law enforcement didn’t need to be bigger; it needed to be more focused. If criminals operated overwhelmingly in a few concentrated hot spots, those crucial parts of the city should be more heavily policed than anywhere else, and the kinds of crime-fighting strategies used by police in those areas ought to be very different from those used in the vast stretches of the city with virtually no crime at all.”
+
+## Chapter Twelve. Sandra Bland
+
+“Human beings are not transparent. But when is this kind of thinking most dangerous? When the people we observe are mismatched: when they do not behave the way we expect them to behave.”
+
+“hink back to the dramatic increase in traffic stops by the North Carolina State Highway Patrol. In seven years they went from 400,000 to 800,000. Now, is that because in that time period the motorists of North Carolina suddenly started running more red lights, drinking more heavily, and breaking the speed limit more often? Of course not. It’s because the state police changed tactics. They started doing far more haystack searches. They instructed their police officers to disregard their natural inclination to default to truth—and start imagining the worst: that young women coming from job interviews might be armed and dangerous, or young men cooling off after a pickup game might be pedophiles.”
+
+“The death of Sandra Bland is what happens when a society does not know how to talk to strangers.”
+
+“Because we do not know how to talk to strangers, what do we do when things go awry with strangers? We blame the stranger.”
+
