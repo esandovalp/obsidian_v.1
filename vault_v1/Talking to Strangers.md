@@ -115,3 +115,7 @@ Crime in every city was concentrated in a tiny number of street segments. Like s
 
 “Plath’s protagonist wasn’t looking to kill herself. She was looking for a way to kill herself. And not just any method would do. That’s the point of coupling: behaviors are specific. She needed to find a method that fit. And on that cold February night, the method that fit for Sylvia Plath happened to be right there in her kitchen.”
 
+“Don’t look at the stranger and jump to conclusions. Look at the stranger’s world.”
+
+## Chapter Eleven. Case Study: The Kansas City Experiments
+
