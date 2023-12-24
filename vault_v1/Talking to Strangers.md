@@ -91,3 +91,27 @@ The judge thought Walker was transparent. But what does “showed remorse” mea
 
 **Summary (UTTP):** “Default to truth is a crucially important strategy that occasionally and unavoidably leads us astray. Transparency is a seemingly commonsense assumption that turns out to be an illusion. Both, however, raise the same question: once we accept our shortcomings, what should we do?”
 
+“Whatever it is we are trying to find out about the strangers in our midst is not robust. The “truth” about Amanda Knox or Jerry Sandusky or KSM is not some hard and shiny object that can be extracted if only we dig deep enough and look hard enough. The thing we want to learn about a stranger is fragile. If we tread carelessly, it will crumple under our feet. And from that follows a second cautionary note: we need to accept that the search to understand a stranger has real limits. We will never know the whole truth. We have to be satisfied with something short of that. The right way to talk to strangers is with caution and humility. How many of the crises and controversies I have described would have been prevented had we taken those lessons to heart?”
+
+# Part Five: Coupling 
+
+## Chapter Ten: Sylvia Plath 
+
+Alfred Alvarez about Sylvia Plath: “For the unhappy,” Alvarez wrote, “Christmas is always a bad time: the terrible false jollity that comes at you from every side, braying about goodwill and peace and family fun, makes loneliness and depression particularly hard to bear. I had never seen her so strained.”
+
+“Poets die young. That is not just a cliché. The life expectancy of poets, as a group, trails playwrights, novelists, and nonfiction writers by a considerable margin. They have higher rates of “emotional disorders” than actors, musicians, composers, and novelists. And of every occupational category, poets have far and away the highest suicide rates—as much as five times higher than the general population. Something about writing poetry appears either to attract the wounded or to open new wounds—and few have so perfectly embodied that image of the doomed genius as Sylvia Plath."
+1. “A poet has to adapt himself, more or less consciously, to the demands of his vocation,” Stephen Spender, himself an accomplished poet, once wrote, “and hence the peculiarities of poets and the condition of inspiration which many people have said is near to madness.”
+
+Coupling is the idea that behaviors are linked to very specific circumstances and conditions. If suicide is coupled, then it isn’t simply the act of depressed people. It’s the act of depressed people at a particular moment of extreme vulnerability and in combination with a particular, readily available lethal means. If suicide is coupled, on the other hand, then it should vary with the availability of particular methods of committing suicide. When a new and easy method such as town gas arrives on the scene, suicides should rise; when that method is taken away, they should fall. The suicide curve should look like a roller coaster.
+3. “I haven’t even mentioned the biggest example of how our inability to understand suicide costs lives: roughly 40,000 Americans commit suicide every year, half of whom do so by shooting themselves. Handguns are the suicide method of choice in the United States—and the problem with that, of course, is that handguns are uniquely deadly. Handguns are America’s town gas. What would happen if the U.S. did what the British did, and somehow eradicated its leading cause of suicide? It’s not hard to imagine. It would uncouple the suicidal from their chosen method. And those few who were determined to try again would be forced to choose from far-less-deadly options, such as overdosing on pills, which is fifty-five times less likely to result in death than using a gun. A very conservative estimate is that banning handguns would save 10,000 lives a year, just from thwarted suicides. That’s a lot of people.”
+
+“In one national survey, three quarters of Americans predicted that when a barrier is finally put up on the Golden Gate Bridge, most of those who wanted to take their life on the bridge would simply take their life some other way. But that’s absolutely wrong. Suicide is coupled.”
+
+“We do not understand the importance of the context in which the stranger is operating.”
+
+“Like most other people, my studies were about people. I said, maybe we ought to be more concerned with *places*.”
+
+Crime in every city was concentrated in a tiny number of street segments. Like suicide, crime is tied to very specific places and contexts. And that means that when you confront the stranger, you have to ask yourself where and when you’re confronting the stranger—because those two things powerfully influence your interpretation of who the stranger is.
+
+“Plath’s protagonist wasn’t looking to kill herself. She was looking for a way to kill herself. And not just any method would do. That’s the point of coupling: behaviors are specific. She needed to find a method that fit. And on that cold February night, the method that fit for Sylvia Plath happened to be right there in her kitchen.”
+
