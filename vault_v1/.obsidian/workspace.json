@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d0709bf378b1a03",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c836e2c59d36b86d",
+            "id": "6cc7ae1b6b434c4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Myth Of Sisyphus.md",
+                "file": "books read on 2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Myth Of Sisyphus.md",
+                "file": "books read on 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Myth Of Sisyphus.md",
+                "file": "books read on 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Myth Of Sisyphus.md"
+                "file": "books read on 2023.md"
               }
             }
           }
@@ -156,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c836e2c59d36b86d",
+  "active": "6cc7ae1b6b434c4c",
   "lastOpenFiles": [
+    "books read on 2023.md",
     "The Myth Of Sisyphus.md",
     "Talking to Strangers.md",
     "Rick and Morty Season 7.md",
