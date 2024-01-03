@@ -1,3 +1,4 @@
+#listas 
 # Tress of the Emerald Sea - 12/01/23
 
 Fácil, el libro que más me gustó de la serie de proyectos secretos de Sanderson. Me pareció excelente el hecho de que sea contado a través de la voz de Hoid. 
