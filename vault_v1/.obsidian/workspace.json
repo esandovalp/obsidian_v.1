@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books read on 2023.md",
+                "file": "The Myth Of Sisyphus.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books read on 2023.md",
+                "file": "The Myth Of Sisyphus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books read on 2023.md",
+                "file": "The Myth Of Sisyphus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books read on 2023.md"
+                "file": "The Myth Of Sisyphus.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "674b9b961ceb6f92",
   "lastOpenFiles": [
-    "books read on 2024.md",
     "books read on 2023.md",
+    "A Beautiful Mind.md",
+    "books read on 2024.md",
+    "generations.md",
     "Talking to Strangers.md",
+    "technologyConsequencesTable.png",
+    "Dave Chapelle.md",
     "The Myth Of Sisyphus.md",
     "Rick and Morty Season 7.md",
-    "technologyConsequencesTable.png",
-    "squizophrenia.md",
-    "generations.md",
-    "A Beautiful Mind.md",
-    "Dave Chapelle.md"
+    "squizophrenia.md"
   ]
 }

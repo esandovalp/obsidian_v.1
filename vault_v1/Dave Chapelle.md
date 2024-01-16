@@ -1,2 +1,0 @@
-#Standup
-# Equanimity
