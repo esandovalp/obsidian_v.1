@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e2d044d3b8c526",
+        "id": "50db1c6810290189",
         "type": "tabs",
         "children": [
           {
-            "id": "674b9b961ceb6f92",
+            "id": "11d260ef370880fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Myth Of Sisyphus.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Myth Of Sisyphus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Myth Of Sisyphus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "The Myth Of Sisyphus.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "674b9b961ceb6f92",
+  "active": "11d260ef370880fc",
   "lastOpenFiles": [
+    "The Myth Of Sisyphus.md",
     "books read on 2023.md",
     "A Beautiful Mind.md",
     "books read on 2024.md",
@@ -155,7 +148,6 @@
     "Talking to Strangers.md",
     "technologyConsequencesTable.png",
     "Dave Chapelle.md",
-    "The Myth Of Sisyphus.md",
     "Rick and Morty Season 7.md",
     "squizophrenia.md"
   ]
