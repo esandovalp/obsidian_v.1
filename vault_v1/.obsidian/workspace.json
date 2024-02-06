@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50db1c6810290189",
+        "id": "e8dedf00862dd88c",
         "type": "tabs",
         "children": [
           {
-            "id": "11d260ef370880fc",
+            "id": "3543a18177adc086",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,14 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11d260ef370880fc",
+  "active": "3543a18177adc086",
   "lastOpenFiles": [
+    "Talking to Strangers.md",
     "The Myth Of Sisyphus.md",
     "books read on 2023.md",
     "A Beautiful Mind.md",
     "books read on 2024.md",
     "generations.md",
-    "Talking to Strangers.md",
     "technologyConsequencesTable.png",
     "Dave Chapelle.md",
     "Rick and Morty Season 7.md",
