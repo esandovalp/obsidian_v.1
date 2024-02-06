@@ -1,6 +1,65 @@
 #8semester
+## Clase 1
+#### ¿Por qué es fácil/complicado trabajar en paralelo?
+
+- En el cómputo paralelo, llega un punto en el que agregar más componentes no ayuda.
+- Debuggear es complejo; se usan múltiples programas a la vez, se entrelazan y no es determinístico
+#### Cosas que dijo
+##### Arquitectura de un CPU
+- El L(level)1 de un CPU es como nuestra memoria corta
+- L2 le cabe más
+- L3 le cabe aún más. Se comparte entre varios cores
+- No es bueno forzar ordenes (de como corran los programas)
+- El cache son los levels
+## Clase 2
+#### Julia
+- Una multiplicación no es atómica, es decir, no se puede dividir. En ensamblador se traduce en múltiples instrucciones.
+- El problema que surge con esto: no es determinístico, es estocástico. Por lo que de repente el programa va a fallar. Hay muy pocas instrucciones atómicas.
+- Entré más workers es más rápido.
+- Si haces ‘nprocs()’ agrega n-1 workers, sólo en la primera vez que agregas procesos, no agrega el worker
+- Nos interesa el nworkers()
+## Clase 3 
+#### Primer programa de paralelización
+_slide 31 de Introduccion y arquitecturas paralelas.pdf_
+- Nunca hacer print en una paralelización, es pesado. Nunca hacer.
+- Medir tiempo en julia:  
+    ```julia
+    @time azar()
+    ```
+#### Tipos de paralelización
+- Un proceso con múltiples hilos.
+- Múltiples procesos para múltiples hilos
+- Los workers son los que nos interesan, son los que trabajan.
+- Al agregar varios procesos, das tareas diferentes a cada uno de ellos. Esto en programas chicos no hace la diferencia.
+¿Cuál es la relación entre el número de procesos y cores de un cpu?
+RE: Muchas a uno
+- Al matar la consola, se pierden los workers y procesos
+- Para resultados más consistentes hay que paralelizar agregando más tareas.
+- La diferencia entre azarparalela y azar es que azar sin paralelizar tarda el doble
+**Resultados**
+- allocations son las reservas
+- entre más procesos más asignaciones de memoria hay
+- el protocolo tcp:
+- agregar más procesos también agrega más conexiones en TCP
+**Aplicaciones**
+- Entrenamiento de redes profundas. Se necesita dar un avance en la energía ya que paralelizar ocupa muchísima energía (en este caso).
+## Clase 4
+- ChatGPT no genera buen código paralelo 
+- Entre más cores agregas y vas bajando el tiempo, se asume que estás haciendo un uso eficiente
+#### Concurrencia vs Paralelismo
+**Ejecución concurrente:** aquello que caracteriza a dos procesos en los que no sabes cuales se ejecuta primero o después. Ocurre en un solo lugar. Tiene que ver los tiempos y en donde se ejecuta
+**Ejecución Paralela:** es un subconjunto de la concurrencia. Todo programa concurrente es paralelo, pero no todo paralelo es concurrente. Uso de recursos para acelerar. 
+#### Cosas que dijo
+- Se pueden agregar varios hilos a un proceso. 
+- El tiempo que tiene un proceso se divide en los hilos
+- Es bueno para tener múltiples clientes en una API, ya que esta es una base de datos
+- CPU Threads = Kernel Threads
+- La relación procesos-threads muchos a pocos
+- Con los procesos que llaman a sistemas los caches se van repoblando, es por eso que el print es muy lento. 
+- Para un uso eficiente necesitas conocer la estructura de la computadora en la que estás trabajando  
+- El CPU es ejecución generalizada, el GPU es ejecución especializada (es realmente un procesador)
 ## 30 de Enero
-### Speed Ups
+#### Speed Ups
 - Línea base: piensas que si metes el doble de cores esperas tener el doble de speed up
 - $$\text{Speed up}_\text{linea base}=\frac{1}{1-f+\frac{f}{N}}$$
 - Tarea altamente paralelizable: ¿cuantas palabras tiene un documento? *ver como se hace*
@@ -17,35 +76,7 @@
 	- El reloj lanza los pulsos que abren las puertas
 	- Muchos GHz sobrecalientan la compu. 
 		- $$ 3.2 \text{ Ghz}=3200 \text{ millones de ciclos } \times \text{ segundos}$$
-	- Paralelismo en la compu:
-		```dataviewjs
-		const processors = ['S1','S2','S3','S4','S5'];
-		const tasks = ['A','B','C','D','E','F','G','H,'I'];
-
-		const datasets = processors.map((processor, index) => ({
-			label: processor,
-			data: tasks.map((task, taskIndex) => taskIndex + index),
-		}));
-		const chartData = {
-		type: 'bar',
-		data: {
-			labels: tasks,
-			datasets: datasets
-			},
-			options: {
-				scales: {
-					x: {
-						stacked: true,
-					},
-					y: {
-						stacked: true
-					}
-				}
-			}
-		}
-		window.renderChart(chartData, document.getElementById('char-container'));
-		```
-
+	- Paralelismo en la compu: *buscar pipelines en internet o en presentación*
 ## 1 de Febrero
 - Las computadoras seriales son las de un único propósito
 - Si hay threads que actúan sobre un mismo programa ocasiona que puedan haber distintos resultados y se convierta en no determinístico.
