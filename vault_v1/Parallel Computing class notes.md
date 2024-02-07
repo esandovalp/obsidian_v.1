@@ -196,3 +196,4 @@ println("Time with modified operation: ", time_modified_op)
 ## Acaba intro empieza C++ OpenMP
 
 
+$$\frac{\binom{N}{j}\binom{N-j}{K-2j}2^{K-2j}}{\binom{2N}{K}}$$
