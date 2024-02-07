@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8080d295344204b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Computing class notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Google courses.md",
+                "file": "Parallel Computing class notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Google courses.md",
+                "file": "Parallel Computing class notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Google courses.md"
+                "file": "Parallel Computing class notes.md"
               }
             }
           }
@@ -147,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3543a18177adc086",
+  "active": "8080d295344204b6",
   "lastOpenFiles": [
-    "Parallel Computing class notes.md",
     "Google courses.md",
+    "Parallel Computing class notes.md",
     "Apuntes Seminario de Legalidad y Ética.md",
     "AI class notes.md",
     "Talking to Strangers.md",

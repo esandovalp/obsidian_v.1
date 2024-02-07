@@ -131,3 +131,68 @@ RE: Muchas a uno
 - Mejor caso a la DRAM son ~248
 
 - Existe un número adecuado de hilos por programa, arquitectura, etc
+
+## Clase 6 de Febrero
+
+### Código de prueba de Julia 
+
+```julia
+using Base.Threads
+
+  
+function disminucion_threaded_no_locks(n)
+
+	valor = Atomic{Int}(10000000)	
+	@threads for i in 1:n
+	atomic_sub!(valor, 1)
+	end
+	return valor[]
+end
+
+function disminucion_threaded_with_locks(n)
+	valor = Atomic{Int}(10000000)
+	lock = ReentrantLock()
+	@threads for i in 1:n
+	lock!(lock) # no está la versión de Julia que tiene lock :( en Dev Containers de VSCode
+	atomic_sub!(valor, 1)
+	unlock!(lock)
+	end
+	return valor[]
+end
+
+  
+
+function disminucion_threaded_modified_operation(n)
+	valor = Atomic{Int}(10000000)
+	@threads for i in 1:n
+		valor[] = 10000000 - i
+	end
+	return valor[]
+end
+```
+
+Correlo en la shell de Julia 
+```julia
+using BenchmarkTools
+
+include("prueba.jl")  # Make sure this path is correct
+
+n = 10000000
+
+time_no_locks = @benchmark disminucion_threaded_no_locks($n)
+time_with_locks = @benchmark disminucion_threaded_with_locks($n)
+time_modified_op = @benchmark disminucion_threaded_modified_operation($n)
+
+println("Time without locks: ", time_no_locks)
+println("Time with locks: ", time_with_locks)
+println("Time with modified operation: ", time_modified_op)
+
+```
+
+- La función `disminucion_threaded_no_locks` tarda unos 226,965 milisegundos. Esta versión no es segura para hilos, pero es más rápida debido a la falta de sobrecarga de sincronización.
+- La función `disminucion_threaded_modified_operation`, que evita la necesidad de bloqueos utilizando un enfoque diferente para decrementar `valor`, es significativamente más rápida con unos 10,921 milisegundos. Esto es de esperar, ya que elimina la necesidad de operaciones atómicas en una variable compartida, que puede ser un cuello de botella en entornos multihilo.
+- No corrió with locks por la versión que Dev Containers maneja de Julia 
+- Sacar la conclusión con Locks, 
+## Acaba intro empieza C++ OpenMP
+
+
