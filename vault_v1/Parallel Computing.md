@@ -1,24 +1,28 @@
 #8semester
-## Clase 1
-#### ¿Por qué es fácil/complicado trabajar en paralelo?
+## ¿Qué es? 
+La computación paralela es el proceso de descomponer problemas de gran envergadura en partes más pequeñas, independientes y a menudo similares, que pueden ser ejecutadas simultáneamente por varios procesadores que se comunican a través de una memoria compartida, y cuyos resultados se combinan al finalizar como parte de un algoritmo global.
+## Objetivo:
+El principal objetivo de la computación paralela es aumentar la potencia de cálculo disponible para acelerar el procesamiento de aplicaciones y la resolución de problemas.
+## ¿Por qué es fácil/complicado trabajar en paralelo?
+Se llega un punto en el que agregar más componentes no ayuda.
+[[Debugging]] es complejo; se usan múltiples programas a la vez, se entrelazan y no es determinístico.
+## [[Arquitectura de un CPU]]
 
-- En el cómputo paralelo, llega un punto en el que agregar más componentes no ayuda.
-- Debuggear es complejo; se usan múltiples programas a la vez, se entrelazan y no es determinístico
-#### Cosas que dijo
-##### Arquitectura de un CPU
+**Cache**:
 - El L(level)1 de un CPU es como nuestra memoria corta
 - L2 le cabe más
 - L3 le cabe aún más. Se comparte entre varios cores
 - No es bueno forzar ordenes (de como corran los programas)
 - El cache son los levels
-## Clase 2
-#### Julia
+## Lenguajes de programación orientados a la Paralelización
+
+### [[Julia]]
+
 - Una multiplicación no es atómica, es decir, no se puede dividir. En ensamblador se traduce en múltiples instrucciones.
 - El problema que surge con esto: no es determinístico, es estocástico. Por lo que de repente el programa va a fallar. Hay muy pocas instrucciones atómicas.
 - Entré más workers es más rápido.
 - Si haces ‘nprocs()’ agrega n-1 workers, sólo en la primera vez que agregas procesos, no agrega el worker
 - Nos interesa el nworkers()
-## Clase 3 
 #### Primer programa de paralelización
 _slide 31 de Introduccion y arquitecturas paralelas.pdf_
 - Nunca hacer print en una paralelización, es pesado. Nunca hacer.

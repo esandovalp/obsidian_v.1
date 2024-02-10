@@ -1,0 +1,1 @@
+Each note should be autonomous, meaning it should be self-contained and comprehensible on its own. This allows notes to be rearranged independently. It also ensures that notes existing on their own not reliant on another source.
