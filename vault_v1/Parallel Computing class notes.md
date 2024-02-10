@@ -195,5 +195,122 @@ println("Time with modified operation: ", time_modified_op)
 - Sacar la conclusión con Locks, 
 ## Acaba intro empieza C++ OpenMP
 
+- Tenemos que trabajar con la reserva dinámica del arreglo, para que se mande al heap (la RAM lo límita) y no al Stack.
+	- El Heap va creciendo dinámicamente
+##### apuntadores
+```c++
+#include <iostream>
+int main(){
+    int valor1 = 1;
+    int valor2 = 2;
 
-$$\text{Let }S \text{ be the sample space and }A\subset S, \text{ show that }F= \{\emptyset,A, A^{c}, S\} \text{ is an algebra} $$
+    int* apuntador = &valor1;   
+    *apuntador = 10;
+    apuntador = &valor2;
+    *apuntador = 20;
+
+    std::cout << "Donde vive el valor 1 " << &valor1 << "\n";
+    std::cout << "Donde vive el valor 2 " << &valor2 << "\n";
+    std::cout << "El valor 1 " << valor1 << "\n";
+    std::cout << "El valor 2 " << valor2 << "\n";
+
+//    std::cout << "Donde vive el apuntado " << &apuntador << "\n";
+//    std::cout << "Imprimiendo el apuntador " << apuntador << "\n";
+//    std::cout << "Imprimiendo el apuntador con el puente" << *apuntador << "\n";
+
+    return 0;
+}
+```
+- ```int*``` : Define la variable que guarda la dirección. Este apuntador también tiene una dirección única. 
+- ```&valor1```: Guarda la dirección
+- Un apuntador es una variable que almacena una dirección.
+##### Arreglos dinámicos
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {    
+    int a[10];
+    int* b {new int[10]{11, 12, 13, 14, 15, 
+                        16, 17, 18, 19, 20}};
+    int* c = new int[10]; //valores arbitrarios
+    int* d;
+    d = new int[10];                        
+  
+    for (int i = 0; i < 10; i++) {
+        cout << "a " << a[i] << endl;
+        cout << "b " << b[i] << endl;
+        cout << "c " << c[i] << endl;
+        cout << "d " << d[i] << endl;
+    } 
+  
+    //delete[] a; Evitar memory leaks
+    delete[] b;
+    delete[] c;
+    delete[] d; 
+  
+    cout << "Hello";
+    return 0;
+}
+```
+
+#### Código de clase con Open MP 
+*lo solucione con esta página:* https://www.bilibili.com/read/cv15365733/
+```c++
+#include <iostream>
+#include <omp.h>
+using namespace std;
+
+int main() {
+	int nthreads;
+	int thread_id;
+	
+	omp_set_num_threads(4);
+	#pragma omp parallel private(thread_id)
+	{
+		thread_id = omp_get_thread_num();
+		cout << " Hola soy el hilo " << thread_id << "\n";	
+		// solo lo ejecuta el hilo maestro
+		if (thread_id == 0) {
+			nthreads = omp_get_num_threads();
+			cout << "Hay " << nthreads << " hilos \n";
+		}
+	}
+	return 0;
+}
+```
+Para compilarlo: 
+```bash
+g++-13 -fopenmp -fdiagnostics-color=always -g /Users/esandovalp/Documents/octavoCODE/cpp/paralelo.cpp -o /Users/esandovalp/Documents/octavoCODE/cpp/paralelo
+```
+Para correrlo, ir primero al directorio donde se hizo el archivo:
+```bash
+./paralelo
+```
+### código de prueba con MPI 
+```c++
+#include <iostream>
+#include "mpi.h"
+
+using namespace std;
+
+int main(int argc, char * argv[]){
+	int my_rank, p, n;
+	
+	MPI_Init(&argc, &argv);
+	MPI_Comm_size(MPI_COMM_WORLD, &p);
+	MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+	
+	printf("size: %d rank: %d\n", p, my_rank);
+	MPI_Finalize();
+}
+```
+#### Compilarlo 
+```bash
+mpic++ -o show.out test.cpp
+```
+#### correrlo
+Se puede cambiar el 4, no se muy bien que sea, pueden ser los threads
+```bash
+mpirun -n 4 show.out
+```
