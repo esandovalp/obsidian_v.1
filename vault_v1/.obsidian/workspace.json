@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65714ed69f5a23f1",
+            "id": "45492d0a69dac2e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "45492d0a69dac2e7",
+            "id": "3481623437c9a1b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de un CPU.md",
+                "file": "Julia.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c9d66942d0929fed",
@@ -159,27 +158,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65714ed69f5a23f1",
+  "active": "45492d0a69dac2e7",
   "lastOpenFiles": [
+    "Atomic Notes.md",
+    "Talking to Strangers.md",
+    "Parallel Computing.md",
     "Julia.md",
     "Arquitectura de un CPU.md",
-    "Parallel Computing.md",
-    "Pasted image 20240210123851.png",
+    "Probability notes.md",
+    "The Myth Of Sisyphus.md",
+    "technologyConsequencesTable.png",
+    "books read on 2023.md",
+    "books read on 2024.md",
     "Debugging.md",
     "Google courses.md",
+    "Pasted image 20240210123851.png",
     "How to take notes.md",
-    "Atomic Notes.md",
     "generations.md",
     "Apuntes Seminario de Legalidad y Ética.md",
-    "books read on 2024.md",
-    "books read on 2023.md",
     "AI class notes.md",
     "Principle of Autonomy.md",
     "A Beautiful Mind.md",
-    "Probability notes.md",
-    "Talking to Strangers.md",
-    "The Myth Of Sisyphus.md",
-    "technologyConsequencesTable.png",
     "Dave Chapelle.md",
     "Rick and Morty Season 7.md",
     "squizophrenia.md"
