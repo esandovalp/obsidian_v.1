@@ -1,4 +1,4 @@
- x wa#8semester
+ #8semester
 ## ¿Qué es? 
 La computación paralela es el proceso de descomponer problemas de gran envergadura en partes más pequeñas, independientes y a menudo similares, que pueden ser ejecutadas simultáneamente por varios procesadores que se comunican a través de una memoria compartida, y cuyos resultados se combinan al finalizar como parte de un algoritmo global.
 ## Objetivo:
