@@ -322,6 +322,67 @@ mpirun -n 4 show.out
 # Clase 13 02 
 
 #### MATRICES CPP
-```c++
+```cpp
+#include <iostream>
+using namespace std;
+// este código se puede correr simplemente dandole a run
 
+int main() {
+	int ren = 2;
+	int col = 4;
+	
+	//int matriz[ren][col]; está bien pero sólo para arreglos chicos
+	// int** matriz{new int*[ren]}; apuntador al primer renglon de la matriz
+	// Reservamos memoria para la matriz dinamicamente
+	int** matriz = new int*[ren]; //notación más java, arreglo de apuntadores
+	for (int i = 0; i < ren; i++) {
+		matriz[i] = new int[col];
+	}
+
+	// Codigo de procesamiento de la matriz	
+	for (int i = 0; i < ren; i++) {
+		for (int j = 0; j < col; j++) {
+			cout << matriz[i][j] << " ";
+		}
+	
+		cout << "\n";
+	}
+	cout << "\n";
+
+	cout << *matriz << "\n";	
+	for (int i = 0; i < ren; i++) {
+		cout << matriz[i] << "\n";
+	
+		for (int j = 0; j < col; j++) {
+		cout << &matriz[i][j] << " ";
+		}
+		cout << "\n";
+	}
+	
+	cout << "\n";
+	// Evitar memory leaks
+	// Libernado la memoria reservada dinamicamente
+	for (int i = 0; i < ren; i++) {
+		delete [] matriz[i];
+	}
+
+	delete[] matriz; // si no haces nada de esto no te va a marcar error pero es buena práctica
+
+	cout << "hello world\n";
+	return 0;
+}
 ```
+
+#### Pasando argumentos en C++ 
+
+- El ```argc``` es 1 porque el primero es el nombre del ejecutable 
+
+#### OpenMP
+##### Constructos para compartir trabajo
+
+- ```#pragma omp parallel for```: Es el que se recomienda usar porque se puede usar casi en cualquier lugar en donde ves un ```for```. Escenario donde no, depender de una entrada, hasta encontrar un carácter específico en un archivo. Distribuye los threads uniformemente. La etiqueta se pone antes del ```for```. 
+	- ```q[i] + b[i]```: Esto se mantiene constante 
+- ```#pragma omp for schedule(dynamic, chunk_size)```: el ```chunk_size``` es el tamaño de la carga, se usa cuando utilizamos una operación dinámica. 
+	- ```clustering[region]```: cuando sabes que algún hilo terminará más rápido. 
+- ```#pragma omp for schedule(static, chunk_size)```: 
+- ```#pragma omp parallel for collapse(num_for)```: 

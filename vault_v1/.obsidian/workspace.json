@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3481623437c9a1b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Julia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -161,10 +149,10 @@
   },
   "active": "45492d0a69dac2e7",
   "lastOpenFiles": [
+    "Julia.md",
+    "Parallel Computing.md",
     "Atomic Notes.md",
     "Talking to Strangers.md",
-    "Parallel Computing.md",
-    "Julia.md",
     "Arquitectura de un CPU.md",
     "Probability notes.md",
     "The Myth Of Sisyphus.md",

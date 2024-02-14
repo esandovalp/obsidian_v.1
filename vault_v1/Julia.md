@@ -30,4 +30,3 @@ Here's a breakdown of the Julia programming language, covering its origins, core
 - **The Julia Programming Language (Official Site):** [https://julialang.org/](https://julialang.org/)
 - **Wikipedia:** [https://en.wikipedia.org/wiki/Julia_(programming_language](https://en.wikipedia.org/wiki/Julia_(programming_language))
 
-**Let me know if you'd like more details on a specific aspect of Julia, or how it fits into different scientific computing tasks!**
