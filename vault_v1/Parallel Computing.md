@@ -382,6 +382,75 @@ int main() {
 
 - ```#pragma omp parallel for```: Es el que se recomienda usar porque se puede usar casi en cualquier lugar en donde ves un ```for```. Escenario donde no, depender de una entrada, hasta encontrar un carácter específico en un archivo. Distribuye los threads uniformemente. La etiqueta se pone antes del ```for```. 
 	- ```q[i] + b[i]```: Esto se mantiene constante 
+		```cpp
+#include <iostream>
+#include <omp.h>
+#include <vector>
+using namespace std;
+
+int main() {
+	int N = 1000000;
+	vector<float> a(N);
+	vector<float> b(N);
+	vector<float> c(N);
+	
+	// Serial Loop 1
+	double time1 = omp_get_wtime();
+	for (int i = 0; i < N; ++i) {
+		a[i] = b[i] = i * 1.0;
+	}
+	double etime1 = omp_get_wtime();
+	
+	// Serial Loop 2
+	double time2 = omp_get_wtime();
+	for (int i = 0; i < N; ++i) {
+		c[i] = a[i] + b[i];
+	}
+	double etime2 = omp_get_wtime();
+	// Printing Results
+	double ftime1 = etime1 - time1;
+
+	std::cout << "Execution time first serial loop: " << ftime1 << " seconds" << std::endl;
+
+	double ftime2 = etime2 - time2;
+
+	std::cout << "Execution time second serial loop: " << ftime2 << " seconds" << std::endl;
+
+	cout << "\n";
+
+	//omp_set_num_threads(4);
+	double start_time1 = omp_get_wtime();
+	#pragma omp parallel for
+	for (int i = 0; i < N; ++i) {
+		a[i] = b[i] = i * 1.0;
+	}
+	double end_time1 = omp_get_wtime();
+
+	double start_time2 = omp_get_wtime();
+	#pragma omp parallel for
+	for (int i = 0; i < N; ++i) {
+		c[i] = a[i] + b[i];
+	}
+	double end_time2 = omp_get_wtime();
+
+	double elapsed_time1 = end_time1 - start_time1;
+	
+	std::cout << "Execution time first parallel loop: " << elapsed_time1 << " seconds" << std::endl;
+
+  
+
+	double elapsed_time2 = end_time2 - start_time2;
+	std::cout << "Execution time second parallel loop: " << elapsed_time2 << " seconds" << std::endl;
+	return 0;
+}
+```
+		Resultados
+		```bash
+Execution time first serial loop: 0.005138 seconds
+Execution time second serial loop: 0.005472 seconds
+Execution time first parallel loop: 0.0008 seconds
+Execution time second parallel loop: 0.000781 seconds
+		```
 - ```#pragma omp for schedule(dynamic, chunk_size)```: el ```chunk_size``` es el tamaño de la carga, se usa cuando utilizamos una operación dinámica. 
 	- ```clustering[region]```: cuando sabes que algún hilo terminará más rápido. 
 - ```#pragma omp for schedule(static, chunk_size)```: 
