@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45492d0a69dac2e7",
+            "id": "fd4655b9224518e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Google - Preparing for your Professional Data Engineer Journey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d56575361108916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Profiler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37e2d70fe2d98c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dataflow pipeline.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Dataflow pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Dataflow pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Computing.md"
+                "file": "Dataflow pipeline.md"
               }
             }
           }
@@ -147,20 +172,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45492d0a69dac2e7",
+  "active": "37e2d70fe2d98c2f",
   "lastOpenFiles": [
-    "Julia.md",
+    "Google - Preparing for your Professional Data Engineer Journey.md",
+    "Dataflow pipeline.md",
+    "Cloud Profiler.md",
+    "Google courses.md",
+    "Probability notes.md",
     "Parallel Computing.md",
+    "Julia.md",
     "Atomic Notes.md",
     "Talking to Strangers.md",
     "Arquitectura de un CPU.md",
-    "Probability notes.md",
     "The Myth Of Sisyphus.md",
     "technologyConsequencesTable.png",
     "books read on 2023.md",
     "books read on 2024.md",
     "Debugging.md",
-    "Google courses.md",
     "Pasted image 20240210123851.png",
     "How to take notes.md",
     "generations.md",
