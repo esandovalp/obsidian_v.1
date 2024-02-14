@@ -318,3 +318,6 @@ Se puede cambiar el 4, no se muy bien que sea, pueden ser los threads
 ```bash
 mpirun -n 4 show.out
 ```
+
+# Clase 13 02 
+
