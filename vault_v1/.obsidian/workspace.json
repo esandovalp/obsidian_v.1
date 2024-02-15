@@ -20,30 +20,19 @@
             }
           },
           {
-            "id": "6d56575361108916",
+            "id": "98abe956e4fab42d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Profiler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37e2d70fe2d98c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dataflow pipeline.md",
+                "file": "Dataplex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Google - Preparing for your Professional Data Engineer Journey.md",
+                "file": "Dataplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Google - Preparing for your Professional Data Engineer Journey.md",
+                "file": "Dataplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Google - Preparing for your Professional Data Engineer Journey.md"
+                "file": "Dataplex.md"
               }
             }
           }
@@ -171,11 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd4655b9224518e1",
+  "active": "98abe956e4fab42d",
   "lastOpenFiles": [
-    "Cloud Profiler.md",
-    "Dataflow pipeline.md",
     "Google - Preparing for your Professional Data Engineer Journey.md",
+    "Dataplex.md",
+    "Transfer appliance.md",
+    "Dataprep.md",
+    "Data warehouse.md",
+    "Cloud Data Loss Prevention.md",
+    "BigQuery.md",
+    "Cloud Storage & buckets.md",
+    "Dataflow pipeline.md",
+    "Cloud Profiler.md",
     "Google courses.md",
     "Probability notes.md",
     "Parallel Computing.md",
@@ -193,10 +189,6 @@
     "generations.md",
     "Apuntes Seminario de Legalidad y Ética.md",
     "AI class notes.md",
-    "Principle of Autonomy.md",
-    "A Beautiful Mind.md",
-    "Dave Chapelle.md",
-    "Rick and Morty Season 7.md",
-    "squizophrenia.md"
+    "Principle of Autonomy.md"
   ]
 }
