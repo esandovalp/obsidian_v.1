@@ -13,3 +13,8 @@ Note: when referencing to pages, I refer to the page on the pdf of each book.
 
 **Why and when do we use n^k:** When sampling with replacement (e.g in a sack you take a ball out and then put it in again) 
 **Why and when do we use n(n-1)...(n-(k-1))**: sampling without replacement.
+
+(c) Show that for any events A and B (with probabilities not equal to 0 or 1), P(A|B) > P(A|B c ) is equivalent to P(B|A) > P(B|A c ).
+
+	$$\text{Show that for any events }A \text{ and }B \text{ (with probabilities not equal to 0 or 1 ), } P(A|B)>P(A|B^{c}) \text{ is equivalent to }P(B|A)>P(B|A^{c})$$
+	
