@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13ee9ed40047eefd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Computing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Parallel Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Parallel Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability notes.md"
+                "file": "Parallel Computing.md"
               }
             }
           }
@@ -184,8 +196,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64174f77ca7b6807",
+  "active": "13ee9ed40047eefd",
   "lastOpenFiles": [
+    "Probability notes.md",
     "Google - Preparing for your Professional Data Engineer Journey.md",
     "Dataplex.md",
     "top priorities.md",
@@ -198,7 +211,6 @@
     "Dataflow pipeline.md",
     "Cloud Profiler.md",
     "Google courses.md",
-    "Probability notes.md",
     "Parallel Computing.md",
     "Julia.md",
     "Atomic Notes.md",

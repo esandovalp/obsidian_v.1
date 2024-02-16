@@ -454,4 +454,120 @@ Execution time second parallel loop: 0.000781 seconds
 - ```#pragma omp for schedule(dynamic, chunk_size)```: el ```chunk_size``` es el tamaño de la carga, se usa cuando utilizamos una operación dinámica. 
 	- ```clustering[region]```: cuando sabes que algún hilo terminará más rápido. 
 - ```#pragma omp for schedule(static, chunk_size)```: 
-- ```#pragma omp parallel for collapse(num_for)```: 
+	```cpp
+#include <iostream>
+#include <omp.h>
+#include <vector>
+
+using namespace std;
+
+int main() {
+int N = 1000000000;
+
+  
+
+vector<float> a(N);
+
+vector<float> b(N);
+
+vector<float> c(N);
+
+  
+
+// Serial Loop 1
+
+double time1 = omp_get_wtime();
+
+for (int i = 0; i < N; ++i) {
+
+a[i] = b[i] = i * 1.0;
+
+}
+
+double etime1 = omp_get_wtime();
+
+  
+
+// Serial Loop 2
+
+double time2 = omp_get_wtime();
+
+for (int i = 0; i < N; ++i) {
+
+c[i] = a[i] + b[i];
+
+}
+
+double etime2 = omp_get_wtime();
+
+  
+
+// Printing Results
+
+double ftime1 = etime1 - time1;
+
+std::cout << "Execution time first serial loop: " << ftime1 << " seconds" << std::endl;
+
+double ftime2 = etime2 - time2;
+
+std::cout << "Execution time second serial loop: " << ftime2 << " seconds" << std::endl;
+
+cout << "\n";
+
+  
+
+//omp_set_num_threads(4);
+
+double start_time1 = omp_get_wtime();
+
+#pragma omp for schedule(static, chunk_size) // 1,10,20,40,80,160,320,640,1280
+
+for (int i = 0; i < N; ++i) {
+
+a[i] = b[i] = i * 1.0;
+
+}
+
+double end_time1 = omp_get_wtime();
+
+  
+
+double start_time2 = omp_get_wtime();
+
+#pragma omp for schedule(static, chunk_size)
+
+for (int i = 0; i < N; ++i) {
+
+c[i] = a[i] + b[i];
+
+}
+
+double end_time2 = omp_get_wtime();
+
+  
+
+double elapsed_time1 = end_time1 - start_time1;
+
+std::cout << "Execution time first parallel loop: " << elapsed_time1 << " seconds" << std::endl;
+
+  
+
+double elapsed_time2 = end_time2 - start_time2;
+
+std::cout << "Execution time second parallel loop: " << elapsed_time2 << " seconds" << std::endl;
+
+return 0;
+
+}
+	```
+| t chunk size | tiempo serial | tiempo paralelo |
+| -------- | -------- | ------------ | 
+| 	 1 | 4.75 | 4.70 |
+| 10 | 4.6 | 4.8 |
+| 20 | 4.62 | 5.26
+| 40 | 4.71 | 5.0 |
+| 80 | 4.62 | 4.92 |
+| 160 | 4.60 | 4.87 |
+| 320 | 
+-```#pragma omp parallel for collapse(num_for)```: 
+
