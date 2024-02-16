@@ -155,4 +155,5 @@ Se pueden hacer combinaciones entre los tres.
 
 # Clase 16 02 24
 
+*revisar apuntes para la clase de la semana pasada porque tenía COVID*
 ## Caso 
