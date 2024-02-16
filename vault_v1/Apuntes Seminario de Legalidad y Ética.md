@@ -163,4 +163,9 @@ Se pueden hacer combinaciones entre los tres.
 ## Caso 5: Literature-texts-AI
 
 - "If you don't double check it, it becomes inmoral"
+- Se debe de justificar que partes se utilizan o generan con Inteligencia Artificial 
+
+## Caso 6: [[Cookies]] & [[FloCs]] (marketing y privacidad)
+
+**Cookies**: información que usan las empresas para perfilamiento. 
 - 
