@@ -186,10 +186,11 @@
   },
   "active": "38c1c216cd6829a9",
   "lastOpenFiles": [
-    "Parallel Computing.md",
-    "Protocolo TCP.md",
-    "julia.md",
     "Probability notes.md",
+    "Parallel Computing.md",
+    "julia.md",
+    "Apuntes Seminario de Legalidad y Ética.md",
+    "Protocolo TCP.md",
     "top priorities.md",
     "Dataplex.md",
     "Google - Preparing for your Professional Data Engineer Journey.md",
@@ -212,7 +213,6 @@
     "Debugging.md",
     "Pasted image 20240210123851.png",
     "How to take notes.md",
-    "generations.md",
-    "Apuntes Seminario de Legalidad y Ética.md"
+    "generations.md"
   ]
 }

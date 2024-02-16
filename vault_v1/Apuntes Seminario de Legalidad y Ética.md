@@ -155,3 +155,4 @@ Se pueden hacer combinaciones entre los tres.
 
 # Clase 16 02 24
 
+## Caso 
