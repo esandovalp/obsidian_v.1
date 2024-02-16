@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd4655b9224518e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Google - Preparing for your Professional Data Engineer Journey.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98abe956e4fab42d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dataplex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4c056f3ca2440f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "top priorities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "64174f77ca7b6807",
             "type": "leaf",
             "state": {
@@ -66,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2ac421a98d15dce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "julia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,11 +174,13 @@
   },
   "active": "13ee9ed40047eefd",
   "lastOpenFiles": [
+    "Protocolo TCP.md",
     "Parallel Computing.md",
+    "julia.md",
     "Probability notes.md",
-    "Google - Preparing for your Professional Data Engineer Journey.md",
-    "Dataplex.md",
     "top priorities.md",
+    "Dataplex.md",
+    "Google - Preparing for your Professional Data Engineer Journey.md",
     "Transfer appliance.md",
     "Dataprep.md",
     "Data warehouse.md",
@@ -212,7 +190,6 @@
     "Dataflow pipeline.md",
     "Cloud Profiler.md",
     "Google courses.md",
-    "Julia.md",
     "Atomic Notes.md",
     "Talking to Strangers.md",
     "Arquitectura de un CPU.md",
@@ -224,7 +201,6 @@
     "Pasted image 20240210123851.png",
     "How to take notes.md",
     "generations.md",
-    "Apuntes Seminario de Legalidad y Ética.md",
-    "AI class notes.md"
+    "Apuntes Seminario de Legalidad y Ética.md"
   ]
 }

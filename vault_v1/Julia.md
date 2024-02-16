@@ -1,3 +1,4 @@
+#CS
 Here's a breakdown of the Julia programming language, covering its origins, core strengths, and use cases:
 
 ## What is Julia?
@@ -30,3 +31,10 @@ Here's a breakdown of the Julia programming language, covering its origins, core
 - **The Julia Programming Language (Official Site):** [https://julialang.org/](https://julialang.org/)
 - **Wikipedia:** [https://en.wikipedia.org/wiki/Julia_(programming_language](https://en.wikipedia.org/wiki/Julia_(programming_language))
 
+# Cosas de la clase 
+
+ Medir tiempo en julia:  
+```julia
+    @time azar()
+```
+ 

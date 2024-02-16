@@ -1,56 +1,37 @@
  #8semester
-## ¿Qué es? 
+# ¿Qué es? 
 La computación paralela es el proceso de descomponer problemas de gran envergadura en partes más pequeñas, independientes y a menudo similares, que pueden ser ejecutadas simultáneamente por varios procesadores que se comunican a través de una memoria compartida, y cuyos resultados se combinan al finalizar como parte de un algoritmo global.
-## Objetivo:
+# Objetivo:
 El principal objetivo de la computación paralela es aumentar la potencia de cálculo disponible para acelerar el procesamiento de aplicaciones y la resolución de problemas.
-## ¿Por qué es fácil/complicado trabajar en paralelo?
+# ¿Por qué es fácil/complicado trabajar en paralelo?
 Se llega un punto en el que agregar más componentes no ayuda.
 [[Debugging]] es complejo; se usan múltiples programas a la vez, se entrelazan y no es determinístico.
-## [[Arquitectura de un CPU]]
 
-**Cache**:
-- El L(level)1 de un CPU es como nuestra memoria corta
-- L2 le cabe más
-- L3 le cabe aún más. Se comparte entre varios cores
-- No es bueno forzar ordenes (de como corran los programas)
-- El cache son los levels
-## Lenguajes de programación orientados a la Paralelización
+> **¿Por qué paralelizar?** 
+ El chiste del computo paralelo es utilizar la [[Arquitectura de un CPU]] para poder obtener speed ups de manera eficiente, i.e. compartiendo los threads pertinentemente, saber que partes de un programa paralelizar, etc. 
 
-### [[Julia]]
+# Lenguajes orientados a cómputo paralelo 
 
-- Una multiplicación no es atómica, es decir, no se puede dividir. En ensamblador se traduce en múltiples instrucciones.
-- El problema que surge con esto: no es determinístico, es estocástico. Por lo que de repente el programa va a fallar. Hay muy pocas instrucciones atómicas.
-- Entré más workers es más rápido.
-- Si haces ‘nprocs()’ agrega n-1 workers, sólo en la primera vez que agregas procesos, no agrega el worker
-- Nos interesa el nworkers()
-#### Primer programa de paralelización
-_slide 31 de Introduccion y arquitecturas paralelas.pdf_
-- Nunca hacer print en una paralelización, es pesado. Nunca hacer.
-- Medir tiempo en julia:  
-    ```julia
-    @time azar()
-    ```
-#### Tipos de paralelización
+ Entre los lenguajes de programación que usamos están [[julia]], [[c++]] y [[python]].
+
+> Nunca hacer print en una paralelización, es pesado. Nunca hacer.
+## Tipos de paralelización
 - Un proceso con múltiples hilos.
 - Múltiples procesos para múltiples hilos
 - Los workers son los que nos interesan, son los que trabajan.
 - Al agregar varios procesos, das tareas diferentes a cada uno de ellos. Esto en programas chicos no hace la diferencia.
-¿Cuál es la relación entre el número de procesos y cores de un cpu?
-RE: Muchas a uno
+- Hay muchos procesos por core
 - Al matar la consola, se pierden los workers y procesos
 - Para resultados más consistentes hay que paralelizar agregando más tareas.
-- La diferencia entre azarparalela y azar es que azar sin paralelizar tarda el doble
-**Resultados**
-- allocations son las reservas
-- entre más procesos más asignaciones de memoria hay
-- el protocolo tcp:
-- agregar más procesos también agrega más conexiones en TCP
-**Aplicaciones**
+
+## datos random 
+- Allocations son las reservas
+- Entre más procesos más asignaciones de memoria hay
+- [[Protocolo TCP]]
+- Agregar más procesos también agrega más conexiones en TCP
+## Aplicaciones del computo paralelo 
 - Entrenamiento de redes profundas. Se necesita dar un avance en la energía ya que paralelizar ocupa muchísima energía (en este caso).
-## Clase 4
-- ChatGPT no genera buen código paralelo 
-- Entre más cores agregas y vas bajando el tiempo, se asume que estás haciendo un uso eficiente
-#### Concurrencia vs Paralelismo
+## Concurrencia vs Paralelismo
 **Ejecución concurrente:** aquello que caracteriza a dos procesos en los que no sabes cuales se ejecuta primero o después. Ocurre en un solo lugar. Tiene que ver los tiempos y en donde se ejecuta
 **Ejecución Paralela:** es un subconjunto de la concurrencia. Todo programa concurrente es paralelo, pero no todo paralelo es concurrente. Uso de recursos para acelerar. 
 #### Cosas que dijo
