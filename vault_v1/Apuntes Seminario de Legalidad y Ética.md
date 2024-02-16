@@ -156,4 +156,11 @@ Se pueden hacer combinaciones entre los tres.
 # Clase 16 02 24
 
 *revisar apuntes para la clase de la semana pasada porque tenía COVID*
-## Caso 
+## Caso 4: [[Deep fakes]] & [[Cheap-fakes]]
+
+- El daño principal es la desinformación que genera. 
+
+## Caso 5: Literature-texts-AI
+
+- "If you don't double check it, it becomes inmoral"
+- 
