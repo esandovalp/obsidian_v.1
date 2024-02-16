@@ -169,4 +169,16 @@ Se pueden hacer combinaciones entre los tres.
 
 **Cookies**: información que usan las empresas para perfilamiento. 
 - La privacidad es una restricción al uso de la información 
-- 
+- Todos los problemas legales de la IA están relacionados con la privacidad.
+
+## Decisiones de las máquinas
+### Responsabilidad jurídica
+
+- Persona y dignidad
+- Libre albedrío y autonomía 
+- Agencia -agente moral- 
+- Responsabilidades y riesgos de la empresa
+- Sesgos y [[auditorías algorítmicas]]
+
+*tarea: buscar auditorias algoritmicas en latam*
+

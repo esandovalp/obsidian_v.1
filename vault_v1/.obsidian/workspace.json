@@ -184,12 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e7410b8eca6b797",
+  "active": "38c1c216cd6829a9",
   "lastOpenFiles": [
+    "auditorías algorítmicas.md",
+    "Apuntes Seminario de Legalidad y Ética.md",
     "Probability notes.md",
     "Parallel Computing.md",
     "julia.md",
-    "Apuntes Seminario de Legalidad y Ética.md",
     "Protocolo TCP.md",
     "top priorities.md",
     "Dataplex.md",
@@ -212,7 +213,6 @@
     "books read on 2024.md",
     "Debugging.md",
     "Pasted image 20240210123851.png",
-    "How to take notes.md",
-    "generations.md"
+    "How to take notes.md"
   ]
 }
