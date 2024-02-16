@@ -168,4 +168,5 @@ Se pueden hacer combinaciones entre los tres.
 ## Caso 6: [[Cookies]] & [[FloCs]] (marketing y privacidad)
 
 **Cookies**: información que usan las empresas para perfilamiento. 
+- La privacidad es una restricción al uso de la información 
 - 
