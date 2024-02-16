@@ -152,3 +152,6 @@ Se pueden hacer combinaciones entre los tres.
     - Fomento de la cooperación entre los sectores público y privado.
 
 - **Democracia:** libertad para elegir quien gobierna. La libertad es un derecho humano.
+
+# Clase 16 02 24
+
