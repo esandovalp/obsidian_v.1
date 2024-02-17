@@ -170,6 +170,7 @@ Se pueden hacer combinaciones entre los tres.
 **Cookies**: información que usan las empresas para perfilamiento. 
 - La privacidad es una restricción al uso de la información 
 - Todos los problemas legales de la IA están relacionados con la privacidad.
+- **Las empresas están generando su propia información para contraatacar la eliminación de los cookies.** Por ejemplo, en restaurantes hacen sus cuestionarios. 
 
 ## Decisiones de las máquinas
 ### Responsabilidad jurídica

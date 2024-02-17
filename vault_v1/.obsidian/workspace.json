@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "Parallel Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "Parallel Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md"
+                "file": "Parallel Computing.md"
               }
             }
           }
@@ -184,10 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38c1c216cd6829a9",
+  "active": "13ee9ed40047eefd",
   "lastOpenFiles": [
-    "auditorías algorítmicas.md",
     "Apuntes Seminario de Legalidad y Ética.md",
+    "auditorías algorítmicas.md",
     "Probability notes.md",
     "Parallel Computing.md",
     "julia.md",
