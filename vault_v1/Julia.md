@@ -1,6 +1,4 @@
 #CS
-Here's a breakdown of the Julia programming language, covering its origins, core strengths, and use cases:
-
 ## What is Julia?
 
 - **A High-Performance, Dynamic Language:** Julia is designed for numerical and scientific computing. It delivers performance comparable to compiled languages like C while being as dynamic and versatile as languages like Python or R.    
@@ -37,4 +35,110 @@ Here's a breakdown of the Julia programming language, covering its origins, core
 ```julia
     @time azar()
 ```
- 
+# Ejemplo de uso de los threads en Julia 
+
+```julia
+    using .Threads
+``` 
+- Vamos a tener múltiples hilos por proceso
+```julia
+    using .Threads
+    
+    function suma(n)
+        arreglo = Int[]
+        @threads for i in 1:n
+            push!(arreglo, i)
+            println("Soy el hilo ", Threads.threadid(), " y estoy agregando ", i)
+        end
+        print(arreglo)
+        return arreglo
+    end
+    ```
+    
+- El que hilo va a ejecutar que se hace de manera estócastica.
+- Cada uno corre su propio flujo de instrucciones
+    
+```julia
+using .Threads
+    
+function suma(n)
+	arreglo = Int[]
+    lk = ReentrantLock()
+    @threads for i in 1:n
+        lock(lk) do 
+            push!(arreglo, i)
+        end
+        #println("Soy el hilo ", Threads.threadid(), " y estoy agregando ", i)
+    end
+    #print(arreglo)
+    return arreglo
+end
+```
+- Así se evita que cada vez que se corre
+    ```julia
+    sum(suma(1000))
+    ```
+- Salga el mismo resultado.
+
+- El verdadero cuello de botella es el acceso a memoria
+- Ir a L1 tarda 4 ciclos, una operación aritmética es 1 ciclo.
+- Mejor caso a la DRAM son ~248
+### Código de prueba de Julia 
+
+```julia
+using Base.Threads
+
+  
+function disminucion_threaded_no_locks(n)
+
+	valor = Atomic{Int}(10000000)	
+	@threads for i in 1:n
+	atomic_sub!(valor, 1)
+	end
+	return valor[]
+end
+
+function disminucion_threaded_with_locks(n)
+	valor = Atomic{Int}(10000000)
+	lock = ReentrantLock()
+	@threads for i in 1:n
+	lock!(lock) # no está la versión de Julia que tiene lock :( en Dev Containers de VSCode
+	atomic_sub!(valor, 1)
+	unlock!(lock)
+	end
+	return valor[]
+end
+
+  
+
+function disminucion_threaded_modified_operation(n)
+	valor = Atomic{Int}(10000000)
+	@threads for i in 1:n
+		valor[] = 10000000 - i
+	end
+	return valor[]
+end
+```
+
+**Correlo en la shell de Julia:**
+```julia
+using BenchmarkTools
+
+include("prueba.jl")  # Make sure this path is correct
+
+n = 10000000
+
+time_no_locks = @benchmark disminucion_threaded_no_locks($n)
+time_with_locks = @benchmark disminucion_threaded_with_locks($n)
+time_modified_op = @benchmark disminucion_threaded_modified_operation($n)
+
+println("Time without locks: ", time_no_locks)
+println("Time with locks: ", time_with_locks)
+println("Time with modified operation: ", time_modified_op)
+
+```
+
+- La función `disminucion_threaded_no_locks` tarda unos 226,965 milisegundos. Esta versión no es segura para hilos, pero es más rápida debido a la falta de sobrecarga de sincronización.
+- La función `disminucion_threaded_modified_operation`, que evita la necesidad de bloqueos utilizando un enfoque diferente para decrementar `valor`, es significativamente más rápida con unos 10,921 milisegundos. Esto es de esperar, ya que elimina la necesidad de operaciones atómicas en una variable compartida, que puede ser un cuello de botella en entornos multihilo.
+- No corrió with locks por la versión que Dev Containers maneja de Julia 
+- Sacar la conclusión con Locks, 
