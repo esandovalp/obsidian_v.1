@@ -19,3 +19,7 @@ Note: when referencing to pages, I refer to the page on the pdf of each book.
 	$$\text{Show that for any events }A \text{ and }B \text{ (with probabilities not equal to 0 or 1 ), } P(A|B)>P(A|B^{c}) \text{ is equivalent to }P(B|A)>P(B|A^{c})$$
 
 $$ \sum_{i=0}^{\infty}p^{i}=\frac{1}{1-p}$$
+![[Pasted image 20240221110502.png]]
+$$\text{Independent trials that result in a success with probability }p \text{ are successively performed until a total of }r\text{ successes is obtained. Show that the probability that exactly }n\text{ trials are required is } \binom{n-1}{r-1}=p^{r}(1-p)^{n-r} 
+\text{Hint: In order for it to take n trials to obtain r successes, how many successes must occur in the first n-1 trials?}
+$$
