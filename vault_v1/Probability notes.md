@@ -17,4 +17,5 @@ Note: when referencing to pages, I refer to the page on the pdf of each book.
 (c) Show that for any events A and B (with probabilities not equal to 0 or 1), P(A|B) > P(A|B c ) is equivalent to P(B|A) > P(B|A c ).
 
 	$$\text{Show that for any events }A \text{ and }B \text{ (with probabilities not equal to 0 or 1 ), } P(A|B)>P(A|B^{c}) \text{ is equivalent to }P(B|A)>P(B|A^{c})$$
-	
+
+$$ \sum_{i=0}^{\infty}p^{i}=\frac{1}{1-p}$$

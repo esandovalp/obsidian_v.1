@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a2ce53586efdd53a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Probability notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "Probability notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Computing.md"
+                "file": "Probability notes.md"
               }
             }
           }
@@ -147,12 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fac2cc4ed5bdafbf",
+  "active": "a2ce53586efdd53a",
   "lastOpenFiles": [
+    "Parallel Computing.md",
     "julia.md",
     "cpu threads.md",
     "c++.md",
-    "Parallel Computing.md",
     "Apuntes Seminario de Legalidad y Ética.md",
     "auditorías algorítmicas.md",
     "Probability notes.md",
