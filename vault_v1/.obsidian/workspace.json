@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5ec8962aa1542dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jerarquías.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Jerarquías.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Jerarquías.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability notes.md"
+                "file": "Jerarquías.md"
               }
             }
           }
@@ -160,8 +172,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2ce53586efdd53a",
+  "active": "c5ec8962aa1542dc",
   "lastOpenFiles": [
+    "Min-max algorithm.md",
+    "Propagación o satisfacción de restricciones.md",
+    "Pasted image 20240222171012.png",
+    "Pasted image 20240222170847.png",
+    "Jerarquías.md",
     "Probability notes.md",
     "Pasted image 20240221110502.png",
     "Parallel Computing.md",
@@ -185,10 +202,7 @@
     "Google courses.md",
     "Atomic Notes.md",
     "Talking to Strangers.md",
-    "Arquitectura de un CPU.md",
-    "The Myth Of Sisyphus.md",
     "technologyConsequencesTable.png",
-    "books read on 2023.md",
     "Pasted image 20240210123851.png"
   ]
 }
