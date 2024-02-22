@@ -30,17 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b3f795f94b7b1a0d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Probability notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Probability notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Probability notes.md"
+              }
             }
           }
         ]
@@ -164,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3f795f94b7b1a0d",
+  "active": "a2ce53586efdd53a",
   "lastOpenFiles": [
     "Probability notes.md",
     "Pasted image 20240221110502.png",

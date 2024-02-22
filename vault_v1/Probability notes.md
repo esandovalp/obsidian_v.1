@@ -23,3 +23,6 @@ $$ \sum_{i=0}^{\infty}p^{i}=\frac{1}{1-p}$$
 $$\text{Independent trials that result in a success with probability }p \text{ are successively performed until a total of }r\text{ successes is obtained. Show that the probability that exactly }n\text{ trials are required is } \binom{n-1}{r-1}=p^{r}(1-p)^{n-r} 
 \text{Hint: In order for it to take n trials to obtain r successes, how many successes must occur in the first n-1 trials?}
 $$
+
+6. An urn contains b black balls and r red balls. One of the balls is drawn at random, but when it is put back in the urn, c additional balls of the same color are put in with it. Now, suppose that we draw another ball. Show that the probability that the first ball was black, given that the second ball drawn was red, is b/(b + r + c).
+$$$$
