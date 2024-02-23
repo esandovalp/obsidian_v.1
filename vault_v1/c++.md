@@ -387,6 +387,5 @@ Correrlo
 
 ## Cláusula REDUCTION
 
-- }
 
 Ahora procedemos con [[MPI]]

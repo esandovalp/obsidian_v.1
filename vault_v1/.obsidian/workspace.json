@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md"
+                "file": "c++.md"
               }
             }
           }
@@ -196,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8cde31ab09815ae",
+  "active": "fac2cc4ed5bdafbf",
   "lastOpenFiles": [
+    "Apuntes Seminario de Legalidad y Ética.md",
     "MPI.md",
     "c++.md",
     "Jerarquías.md",
@@ -210,7 +210,6 @@
     "Pasted image 20240221110502.png",
     "julia.md",
     "cpu threads.md",
-    "Apuntes Seminario de Legalidad y Ética.md",
     "auditorías algorítmicas.md",
     "Protocolo TCP.md",
     "top priorities.md",
