@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "c++.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jerarquías.md",
+                "file": "c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jerarquías.md",
+                "file": "c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jerarquías.md"
+                "file": "c++.md"
               }
             }
           }
@@ -172,19 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5ec8962aa1542dc",
+  "active": "fac2cc4ed5bdafbf",
   "lastOpenFiles": [
+    "Jerarquías.md",
+    "Probability notes.md",
+    "c++.md",
+    "Parallel Computing.md",
     "Min-max algorithm.md",
     "Propagación o satisfacción de restricciones.md",
     "Pasted image 20240222171012.png",
     "Pasted image 20240222170847.png",
-    "Jerarquías.md",
-    "Probability notes.md",
     "Pasted image 20240221110502.png",
-    "Parallel Computing.md",
     "julia.md",
     "cpu threads.md",
-    "c++.md",
     "Apuntes Seminario de Legalidad y Ética.md",
     "auditorías algorítmicas.md",
     "Protocolo TCP.md",

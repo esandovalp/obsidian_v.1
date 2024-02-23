@@ -340,3 +340,33 @@ int main() {
 - ```long long int``` cuando vamos a trabajar con vectores muy grandes 
 
 - ```#pragma omp parallel for collapse(num_for)```: si son dos ```for``` los hace uno. 
+
+## Bloque de código ejecutado exclusivamente por el hilo maestro
+```cpp
+#pragma omp master newline
+	//structured_block
+```
+### Directiva sections 
+Especifica que las secciones deben repartirse entre los hilos. Solo se permite un hilo por sección. Ejemplos: embeddings de texto, es una conversión de texto a números. 
+```cpp
+#pragma omp sections newline
+{
+	#pragma omp section newline
+	// structured_block
+	#pragma omp section newline 
+	// structured_block
+}
+```
+
+### Directiva SINGLE
+
+Bloque de código ejecutado exclusivamente por un hilo 
+
+### Directiva BARRIER
+
+Obliga a todos los hilos a esperarse los unos a los otros 
+
+### Directiva Critical y Atomic 
+
+En la critical puedes meter más instrucciones, atomic es mucho más peligrosa, pero ambas son similares. 
+
