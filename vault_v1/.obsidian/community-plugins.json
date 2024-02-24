@@ -1,7 +1,6 @@
 [
   "obsidian-git",
-  "quick-latex",
-  "obsidian-hider",
-  "obsidian-linter",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "cm-editor-syntax-highlight-obsidian"
 ]

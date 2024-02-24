@@ -1,6 +1,6 @@
 #8semester #CS 
 # Código de prueba con MPI 
-```c++
+```cpp
 #include <iostream>
 #include "mpi.h"
 

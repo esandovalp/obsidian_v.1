@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fac2cc4ed5bdafbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "45d11262a48a86a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "OpenMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ade2f00ade79ccbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MPI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2ce53586efdd53a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5ec8962aa1542dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jerarquías.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,12 +161,12 @@
   },
   "active": "45d11262a48a86a3",
   "lastOpenFiles": [
-    "c++.md",
-    "OpenMP.md",
     "Apuntes Seminario de Legalidad y Ética.md",
+    "OpenMP.md",
+    "c++.md",
+    "Probability notes.md",
     "MPI.md",
     "Jerarquías.md",
-    "Probability notes.md",
     "Parallel Computing.md",
     "Min-max algorithm.md",
     "Propagación o satisfacción de restricciones.md",
