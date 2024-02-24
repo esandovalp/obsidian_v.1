@@ -1,6 +1,7 @@
 {
   "accentColor": "",
-  "theme": "system",
-  "cssTheme": "",
-  "baseFontSize": 16
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "textFontFamily": ""
 }
