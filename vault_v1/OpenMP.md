@@ -1,4 +1,4 @@
-#cs #8semester 
++#cs #8semester 
 
 # Respuesta de Gemini sobre OpenMP 
 
