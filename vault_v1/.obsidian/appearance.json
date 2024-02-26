@@ -1,7 +1,7 @@
 {
   "accentColor": "#ce0d0d",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "cssTheme": "Minimal",
   "baseFontSize": 16,
-  "textFontFamily": ""
+  "textFontFamily": "Canela Text"
 }

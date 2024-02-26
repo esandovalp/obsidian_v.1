@@ -2,109 +2,36 @@
 # Respuesta de Gemini sobre OpenMP 
 
 ## What is OpenMP?
+*Open specifications for Multi-Processing*
 
-- **API for Shared-Memory Parallel Programming:** OpenMP is an Application Programming Interface (API) designed to make it easier to write parallel programs for shared-memory systems. This means systems where multiple processors or cores can access the same pool of memory.
-- **Primarily for C, C++, and Fortran:** OpenMP offers a convenient way to add parallelism to your code if you primarily use these languages.
+- Single Program, Multiple Data (subcategoría de MIMD)
+- Aplicaciones paralelas con memoria compartida
+- Control total- paralelismo explícito (no automático)
+- Mecanismos de sincronización
+- Número dinámico de hilos
+- Cada hilo puede tener variables compartidas y locales
 - **Compiler Directives, Library Routines, and Environment Variables:** The core of OpenMP consists of:
-    - **Directives:** Special instructions you add to your code to tell the compiler how to parallelize sections.
-    - **Library Routines:** Functions that help manage threads and parallel execution.
-    - **Environment Variables:** Settings that influence OpenMP's behavior during program execution.
+    - **[[OpenMP Directives]]:** Special instructions you add to your code to tell the compiler how to parallelize sections.
+    - **[[OpenMP Libraries]]:** Functions that help manage threads and parallel execution.
+    - **[[Environment Variables]]:** Settings that influence OpenMP's behavior during program execution.
 
-## How Does OpenMP Work?
+# Funcionamiento de los hilos en OpenMP 
 
-1. **Fork-Join Model:** OpenMP primarily uses the "fork-join" model of parallel programming. Here's how it works:
-    - **Master Thread:** Your program starts as a single thread of execution (the master thread).
-    - **Fork:** When the master thread encounters an OpenMP directive (e.g., to parallelize a loop), it creates a team of threads.
-    - **Parallel Execution:** The work within the designated code block is divided among the threads, which execute it simultaneously.
-    - **Join:** After the parallel section is complete, the threads synchronize and join back into the master thread.
+Los **hilos** tienen potencial de ejecutar el mismo código, sin embargo, cada hilo puede
+acceder diferentes datos y atravesar diferentes rutas de ejecución.
 
-## Why Use OpenMP?
+**Metas:**
+- Estandarización
+- Programación paralela simple
+- “Portable”
 
-- **Ease of Use:** OpenMP is relatively simple to learn and integrate into existing code compared to lower-level threading libraries.
-- **Portability:** Code written with OpenMP can generally run on a variety of shared-memory systems without major changes.
-- **Incremental Parallelization:** You can gradually add parallelism to your code, focusing on the most performance-critical sections first.
-- **Wide Support:** OpenMP is supported by many compilers and has a large user community.
-
-## Example
-
-```cpp
-#include <iostream>
-#include <omp.h>
-
-int main() {
-    #pragma omp parallel 
-    {
-        int id = omp_get_thread_num();
-        std::cout << "Hello from thread " << id << std::endl;
-    }
-    return 0;
-}
-```
-
-In this example, the `#pragma omp parallel` directive tells the compiler to create threads and execute the following code block in parallel. Each thread will print its unique ID.
 # Clase 
-- Tenemos que trabajar con la reserva dinámica del arreglo, para que se mande al heap (la RAM lo límita) y no al Stack.
+- Tenemos que trabajar con la reserva dinámica del arreglo, para que se mande al heap (la RAM lo limita) y no al Stack.
 	- El Heap va creciendo dinámicamente
-# Apuntadores
-```c++
-#include <iostream>
 
-int main(){
-    int valor1 = 1;
-    int valor2 = 2;
-
-    int* apuntador = &valor1;   
-    *apuntador = 10;
-    apuntador = &valor2;
-    *apuntador = 20;
-    std::cout << "Donde vive el valor 1 " << &valor1 << "\n";
-    std::cout << "Donde vive el valor 2 " << &valor2 << "\n";
-    std::cout << "El valor 1 " << valor1 << "\n";
-    std::cout << "El valor 2 " << valor2 << "\n";
-
-//    std::cout << "Donde vive el apuntado " << &apuntador << "\n";
-//    std::cout << "Imprimiendo el apuntador " << apuntador << "\n";
-//    std::cout << "Imprimiendo el apuntador con el puente" << *apuntador << "\n";
-
-
-    return 0;
-}
-```
-- ```int*``` : Define la variable que guarda la dirección. Este apuntador también tiene una dirección única. 
-- ```&valor1```: Guarda la dirección
-- Un apuntador es una variable que almacena una dirección.
-# Arreglos dinámicos
-```c++
-#include <iostream>
-using namespace std;
-
-int main() {    
-    int a[10];
-    int* b {new int[10]{11, 12, 13, 14, 15, 
-                        16, 17, 18, 19, 20}};
-    int* c = new int[10]; //valores arbitrarios
-    int* d;
-    d = new int[10];                        
-  
-    for (int i = 0; i < 10; i++) {
-        cout << "a " << a[i] << endl;
-        cout << "b " << b[i] << endl;
-        cout << "c " << c[i] << endl;
-        cout << "d " << d[i] << endl;
-    } 
-  
-    //delete[] a; Evitar memory leaks
-    delete[] b;
-    delete[] c;
-    delete[] d; 
-  
-    cout << "Hello";
-    return 0;
-}
-```
-
-# Código de clase con Open MP 
+# Cómo correr un programa en C++ con OpenMP 
 *lo solucione con esta página:* https://www.bilibili.com/read/cv15365733/
+
 ```c++
 #include <iostream>
 #include <omp.h>
@@ -137,60 +64,7 @@ Para correrlo, ir primero al directorio donde se hizo el archivo:
 ./paralelo
 ```
 
-# MATRICES CPP
-```cpp
-#include <iostream>
-using namespace std;
-// este código se puede correr simplemente dandole a run
 
-int main() {
-	int ren = 2;
-	int col = 4;
-	
-	//int matriz[ren][col]; está bien pero sólo para arreglos chicos
-	// int** matriz{new int*[ren]}; apuntador al primer renglon de la matriz
-	// Reservamos memoria para la matriz dinamicamente
-	int** matriz = new int*[ren]; //notación más java, arreglo de apuntadores
-	for (int i = 0; i < ren; i++) {
-		matriz[i] = new int[col];
-	}
-
-	// Codigo de procesamiento de la matriz	
-	for (int i = 0; i < ren; i++) {
-		for (int j = 0; j < col; j++) {
-			cout << matriz[i][j] << " ";
-		}
-	
-		cout << "\n";
-	}
-	cout << "\n";
-
-	cout << *matriz << "\n";	
-	for (int i = 0; i < ren; i++) {
-		cout << matriz[i] << "\n";
-	
-		for (int j = 0; j < col; j++) {
-		cout << &matriz[i][j] << " ";
-		}
-		cout << "\n";
-	}
-	
-	cout << "\n";
-	// Evitar memory leaks
-	// Libernado la memoria reservada dinamicamente
-	for (int i = 0; i < ren; i++) {
-		delete [] matriz[i];
-	}
-
-	delete[] matriz; // si no haces nada de esto no te va a marcar error pero es buena práctica
-
-	cout << "hello world\n";
-	return 0;
-}
-```
-
-# Pasando argumentos en C++ 
-- El ```argc``` es 1 porque el primero es el nombre del ejecutable 
 # OpenMP
 ## Constructos para compartir trabajo
 
@@ -332,67 +206,7 @@ int main() {
 #pragma omp master newline
 	//structured_block
 ```
-### Directiva sections 
-Especifica que las secciones deben repartirse entre los hilos. Solo se permite un hilo por sección. Ejemplos: embeddings de texto, es una conversión de texto a números. 
-```cpp
-#pragma omp sections newline
-{
-	#pragma omp section newline
-	// structured_block
-	#pragma omp section newline 
-	// structured_block
-}
-```
 
-### Directiva SINGLE
-
-Bloque de código ejecutado exclusivamente por un hilo 
-
-### Directiva BARRIER
-
-Obliga a todos los hilos a esperarse los unos a los otros 
-
-### Directiva Critical y Atomic 
-
-En la critical puedes meter más instrucciones, atomic es mucho más peligrosa, pero ambas son similares. 
-
-## Código de directivas 
-
-```cpp
-#include <iostream>
-#include <omp.h>
-
-int main() {
-  const int num_threads = 4;
-  const long long int vector_size = 1000000;
-  int chunk_size = vector_size / num_threads;
-  int *a = new int[vector_size];
-  int *b = new int[vector_size];
-  int *c = new int[vector_size];
-  long long int i = 0;
-  int thread_id = 0;
-  omp_set_num_threads(num_threads)
-#pragma omp parallel private(i, thread_id)
-  {
-    thread_id = omp_get_thread_num();
-#pragma omp critical
-    std::cout << thread_id << " esperando.. \n";
-    // #pragma omp barrier
-    std::cout << "hilo " << thread_id << " avanzando.. \n";
-  }
-
-  std::cout << "hello";
-  return 0;
-}
-
-```
-Compilación
-```bash
-g++-13 -fopenmp -fdiagnostics-color=always -g /Users/esandovalp/Documents/vscodeFiles/compuParalelo/cpp/directivas.cpp -o /Users/esandovalp/Documents/vscodeFiles/compuParalelo/cpp/directivas
-```
-Correrlo
-```bash
-./directivas
 ```
 **Sections_**
 ```cpp

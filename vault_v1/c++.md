@@ -34,3 +34,118 @@ Absolutely not! Other great languages exist for parallel computing:
 C++ excels in specific parallel computing contexts where raw performance and low-level control are paramount.
 
 **Acaba intro empieza C++:** [[OpenMP]]
+
+# Apuntadores
+
+```c++
+#include <iostream>
+
+int main(){
+    int valor1 = 1;
+    int valor2 = 2;
+
+    int* apuntador = &valor1;   
+    *apuntador = 10;
+    apuntador = &valor2;
+    *apuntador = 20;
+    std::cout << "Donde vive el valor 1 " << &valor1 << "\n";
+    std::cout << "Donde vive el valor 2 " << &valor2 << "\n";
+    std::cout << "El valor 1 " << valor1 << "\n";
+    std::cout << "El valor 2 " << valor2 << "\n";
+
+//    std::cout << "Donde vive el apuntado " << &apuntador << "\n";
+//    std::cout << "Imprimiendo el apuntador " << apuntador << "\n";
+//    std::cout << "Imprimiendo el apuntador con el puente" << *apuntador << "\n";
+
+
+    return 0;
+}
+```
+- ```int*``` : Define la variable que guarda la dirección. Este apuntador también tiene una dirección única. 
+- ```&valor1```: Guarda la dirección
+- Un apuntador es una variable que almacena una dirección.
+# Arreglos dinámicos
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {    
+    int a[10];
+    int* b {new int[10]{11, 12, 13, 14, 15, 
+                        16, 17, 18, 19, 20}};
+    int* c = new int[10]; //valores arbitrarios
+    int* d;
+    d = new int[10];                        
+  
+    for (int i = 0; i < 10; i++) {
+        cout << "a " << a[i] << endl;
+        cout << "b " << b[i] << endl;
+        cout << "c " << c[i] << endl;
+        cout << "d " << d[i] << endl;
+    } 
+  
+    //delete[] a; Evitar memory leaks
+    delete[] b;
+    delete[] c;
+    delete[] d; 
+  
+    cout << "Hello";
+    return 0;
+}
+```
+
+# Matrices en C++ 
+```cpp
+#include <iostream>
+using namespace std;
+// este código se puede correr simplemente dandole a run
+
+int main() {
+	int ren = 2;
+	int col = 4;
+	
+	//int matriz[ren][col]; está bien pero sólo para arreglos chicos
+	// int** matriz{new int*[ren]}; apuntador al primer renglon de la matriz
+	// Reservamos memoria para la matriz dinamicamente
+	int** matriz = new int*[ren]; //notación más java, arreglo de apuntadores
+	for (int i = 0; i < ren; i++) {
+		matriz[i] = new int[col];
+	}
+
+	// Codigo de procesamiento de la matriz	
+	for (int i = 0; i < ren; i++) {
+		for (int j = 0; j < col; j++) {
+			cout << matriz[i][j] << " ";
+		}
+	
+		cout << "\n";
+	}
+	cout << "\n";
+
+	cout << *matriz << "\n";	
+	for (int i = 0; i < ren; i++) {
+		cout << matriz[i] << "\n";
+	
+		for (int j = 0; j < col; j++) {
+		cout << &matriz[i][j] << " ";
+		}
+		cout << "\n";
+	}
+	
+	cout << "\n";
+	// Evitar memory leaks
+	// Libernado la memoria reservada dinamicamente
+	for (int i = 0; i < ren; i++) {
+		delete [] matriz[i];
+	}
+
+	delete[] matriz; // si no haces nada de esto no te va a marcar error pero es buena práctica
+
+	cout << "hello world\n";
+	return 0;
+}
+```
+
+# Pasando argumentos en C++ 
+- El ```argc``` es 1 porque el primero es el nombre del ejecutable 

@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "f8cde31ab09815ae",
+            "id": "b5fdf27a10249db6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "c++.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP.md",
+                "file": "c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP.md",
+                "file": "c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP.md"
+                "file": "c++.md"
               }
             }
           }
@@ -159,10 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45d11262a48a86a3",
+  "active": "b5fdf27a10249db6",
   "lastOpenFiles": [
-    "Apuntes Seminario de Legalidad y Ética.md",
+    "Environment Variables.md",
     "OpenMP.md",
+    "OpenMP Directives.md",
+    "OpenMP Libraries.md",
+    "Apuntes Seminario de Legalidad y Ética.md",
     "c++.md",
     "Probability notes.md",
     "MPI.md",
@@ -187,9 +191,6 @@
     "BigQuery.md",
     "Cloud Storage & buckets.md",
     "Dataflow pipeline.md",
-    "Cloud Profiler.md",
-    "Google courses.md",
-    "Atomic Notes.md",
     "technologyConsequencesTable.png",
     "Pasted image 20240210123851.png"
   ]
