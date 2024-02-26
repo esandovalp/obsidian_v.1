@@ -1,5 +1,4 @@
-+#cs #8semester 
-
+#cs #8semester 
 # Respuesta de Gemini sobre OpenMP 
 
 ## What is OpenMP?
@@ -7,11 +6,9 @@
 - **API for Shared-Memory Parallel Programming:** OpenMP is an Application Programming Interface (API) designed to make it easier to write parallel programs for shared-memory systems. This means systems where multiple processors or cores can access the same pool of memory.
 - **Primarily for C, C++, and Fortran:** OpenMP offers a convenient way to add parallelism to your code if you primarily use these languages.
 - **Compiler Directives, Library Routines, and Environment Variables:** The core of OpenMP consists of:
-    
     - **Directives:** Special instructions you add to your code to tell the compiler how to parallelize sections.
     - **Library Routines:** Functions that help manage threads and parallel execution.
     - **Environment Variables:** Settings that influence OpenMP's behavior during program execution.
-    
 
 ## How Does OpenMP Work?
 
