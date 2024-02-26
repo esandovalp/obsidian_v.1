@@ -1,4 +1,4 @@
-#cs #8semester 
+#cs #8semester #ai 
 
 Organización por niveles.
 ## Jerarquía clasificatoria 
@@ -8,11 +8,10 @@ También se le conoce como taxonomía
 ## Jerarquía Partonómica
 
 Relaciones de tipo ```PART-OF```
-
 ## Jerarquía de mando (organizacional)
 
 Relaciones de tipo ```LE-RESPONDE-A```
-
 ## Arbol de decisión 
 
 Los nodos internos son preguntas, los nodos externos (hoja) son las decisiones 
+
