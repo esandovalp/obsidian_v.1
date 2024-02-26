@@ -26,3 +26,6 @@ $$
 
 6. An urn contains b black balls and r red balls. One of the balls is drawn at random, but when it is put back in the urn, c additional balls of the same color are put in with it. Now, suppose that we draw another ball. Show that the probability that the first ball was black, given that the second ball drawn was red, is b/(b + r + c).
 $$$$
+
+
+$$\text{Find the value of }P(B^{c}|A) \text{ given that the following is true: } P(A|B) = P(A^{c}|B^{c})=p \text{ and that p = 0.95}$$
