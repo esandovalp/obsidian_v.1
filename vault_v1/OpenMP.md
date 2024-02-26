@@ -63,10 +63,7 @@ Para correrlo, ir primero al directorio donde se hizo el archivo:
 ```bash
 ./paralelo
 ```
-
-
-# OpenMP
-## Constructos para compartir trabajo
+# Constructos para compartir trabajo
 
 - ```#pragma omp parallel for```: Es el que se recomienda usar porque se puede usar casi en cualquier lugar en donde ves un ```for```. Escenario donde no, depender de una entrada, hasta encontrar un carácter específico en un archivo. Distribuye los threads uniformemente. La etiqueta se pone antes del ```for```. 
 	- ```q[i] + b[i]```: Esto se mantiene constante 
@@ -139,6 +136,13 @@ Execution time second serial loop: 0.005472 seconds
 Execution time first parallel loop: 0.0008 seconds
 Execution time second parallel loop: 0.000781 seconds
 		```
+
+**Problemas que pueden ocurrir con esta solución:**
+- Dependiendo del tamaño de los for's anidados, no todos los hilos pueden llegar a utilizarse. La solución para esto es utilizar: ```#pragma omp parallel for collapse(num_for)```: si son dos ```for``` los hace uno. 
+## Floyd - Marshall 
+- El algoritmo puede usar tres ```for```anidados, por lo que para eficientar el algoritmo, usamos estos "pragmas".
+## Más constructos 
+
 - ```#pragma omp for schedule(dynamic, chunk_size)```: el ```chunk_size``` es el tamaño de la carga, se usa cuando utilizamos una operación dinámica. 
 	- ```clustering[region]```: cuando sabes que algún hilo terminará más rápido. 
 - ```#pragma omp for schedule(static, chunk_size)```: 
@@ -194,25 +198,5 @@ int main() {
 - ```auto```: adopta el tipo que te va a regresar automaticamente, es de ```c++```
 - ```shared(a,b,c, static_behavior```: lo que comparten todos los hilos.
 - ```long long int``` cuando vamos a trabajar con vectores muy grandes 
-
-- ```#pragma omp parallel for collapse(num_for)```: si son dos ```for``` los hace uno. 
-
-# Clase martes 20 
-
-*completar porque no fui a la clase*
-
-## Bloque de código ejecutado exclusivamente por el hilo maestro
-```cpp
-#pragma omp master newline
-	//structured_block
-```
-
-```
-**Sections_**
-```cpp
-```
-
-## Cláusula REDUCTION
-
 
 Ahora procedemos con [[MPI]]

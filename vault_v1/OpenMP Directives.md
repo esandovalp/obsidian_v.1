@@ -11,28 +11,75 @@
 ```#pragma omp constructo [cláusula]```
 
 # Directiva sections 
-Especifica que las secciones deben repartirse entre los hilos. Solo se permite un hilo por sección. Ejemplos: embeddings de texto, es una conversión de texto a números. 
+
+Especifica que las secciones deben repartirse entre los hilos. Solo se permite un hilo por sección. 
+**Ejemplos**: embeddings de texto, es una conversión de texto a números. 
+
 ```cpp
 #pragma omp sections newline
 {
 	#pragma omp section newline
 	// structured_block
+	
 	#pragma omp section newline 
 	// structured_block
 }
 ```
 
+Al final de las secciones hay una barrera implícita a no ser que utilice la cláusula ```nowait```. **Preguntar**
 # Directiva SINGLE
 
 Bloque de código ejecutado exclusivamente por un hilo 
-
+```cpp
+#pragma omp single newline
+	//structured_block
+```
 # Directiva BARRIER
 
 Obliga a todos los hilos a esperarse los unos a los otros 
-# Directiva Critical y Atomic 
+```cpp
+#pragma omp barrier newline
+```
+# Directiva ATOMIC y CRITICAL
+
+**Atomic:** la expresión se ejecuta como si fuera una sola instrucción a nivel máquina.
+```cpp
+#pragma omp atomic newline
+	//statement_expression
+```
+
+**Critical:** región crítica
+```cpp
+#pragma omp critical (nombre) newline
+	//structured_block
+```
+El ```(nombre)``` es muy importante ya que es el candado.
+- Regiones con el mismo nombre son mutuamente excluyentes, es decir, no ocurren al mismo tiempo.
+- Para tener regiones que no sean mutuamente excluyentes se le debe poner un nombre diferente a cada región. 
+
+**Ejemplo de uso con otras directivas**
+```cpp
+#pragma omp parallel shared(x)
+{
+	#pragma omp critical
+	x = x + 1;
+}
+```
 
 En la critical puedes meter más instrucciones, atomic es mucho más peligrosa, pero ambas son similares. 
 
+# Cláusula REDUCTION
+
+```cpp
+#pragma omp for schedule(static, chunk_size) reduction(+:suma)
+	suma += expresión
+
+#pragma omp for schedule(static, chunk_size) reduction(*:mult)
+	mult *= expression
+```
+## operadores REDUCTION
+
+![[Pasted image 20240226134326.png]]
 # Código de directivas 
 
 ```cpp

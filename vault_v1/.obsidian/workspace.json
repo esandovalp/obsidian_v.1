@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c0b0a5c0c0ffde32",
+        "id": "f4e6fa419f2fa299",
         "type": "tabs",
         "children": [
           {
-            "id": "45d11262a48a86a3",
+            "id": "6ccef1ee6ec78d05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5fdf27a10249db6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "c++.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,14 +139,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5fdf27a10249db6",
+  "active": "6ccef1ee6ec78d05",
   "lastOpenFiles": [
-    "Environment Variables.md",
-    "OpenMP.md",
+    "c++.md",
     "OpenMP Directives.md",
+    "Pasted image 20240226134326.png",
+    "OpenMP.md",
+    "Environment Variables.md",
     "OpenMP Libraries.md",
     "Apuntes Seminario de Legalidad y Ética.md",
-    "c++.md",
     "Probability notes.md",
     "MPI.md",
     "Jerarquías.md",
@@ -190,7 +170,6 @@
     "Cloud Data Loss Prevention.md",
     "BigQuery.md",
     "Cloud Storage & buckets.md",
-    "Dataflow pipeline.md",
     "technologyConsequencesTable.png",
     "Pasted image 20240210123851.png"
   ]
