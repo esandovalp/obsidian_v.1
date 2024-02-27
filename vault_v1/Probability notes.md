@@ -33,3 +33,4 @@ $$\text{Find the value of }P(B^{c}|A) \text{ given that the following is true: }
 $$ \frac{(0.05)P(B^{c})}{(0.90)P(B)+0.05} $$
 
 Simplify $$ (0.95)P(B)+(0.05)P(B^{c}) $$ 
+$$ \text{Given that the following is true: } P(A|B) = P(A^{c}|B^{c})=p \text{. How big should p be so that }P(B|A) = 0.9$$
