@@ -34,3 +34,16 @@ $$ \frac{(0.05)P(B^{c})}{(0.90)P(B)+0.05} $$
 
 Simplify $$ (0.95)P(B)+(0.05)P(B^{c}) $$ 
 $$ \text{Given that the following is true: } P(A|B) = P(A^{c}|B^{c})=p \text{. How big should p be so that }P(B|A) = 0.9$$
+
+
+
+# Examen de proba 
+
+$$ 1) \text{ Sea } S \text{ el espacio muestral y } A \subset S, \text{ demuestre que } F=\{\emptyset,A,A^{c},S\} \text{ es una algebra.} $$ $$ 2) \text{ } 2a) \text{ Demuestre la identidad de Vandermonde} \binom{n+m}{k}=\sum_{j=0}^{k}\binom{m}{j}\binom{n}{k-j}.$$
+$$ 2) \text{ } 2b) \text{ Demuestre que } \binom{2n}{n}=\sum_{k=0}^{n}\binom{n}{k}^2.$$
+$$ 3) \text{ } 3a) \text{ De un ejemplo de eventos independientes } A \text{ y }B \text{ en un espacio muestral finito (ninguno de estos eventos es igual a } \emptyset \text{ o } S. \text{ e ilustre el ejemplo usando un diagrama del mundo de las piedritas (espacio muestral)}  $$
+
+$$ 3) \text{ } 3b) \text{ Muestre que si } A \text{ y } B \text{ son independientes, entonces } Pr(A\cup B)=Pr(A)+Pr(B)-Pr(A)Pr(B)=1-Pr(A^{c})Pr(B^{c})$$
+$$ 4) \text{De acuerdo con el CDC (Center of Disease Control and Prevention) los hombres que fuman tienen 23 veces una probabilidad más alta de desarrollar cáncer de pulmón en comparación con los hombres que no fuman. Además de acuerdo al CDC 21.6% de los hombres en USA fuman. ¿Cuál es la probabiidad de que un hombre en USA sea fumador dado que desarrolló cáncer de pulmón?} $$
+
+$$ $$ 5) \text{ Enuncie y demuestre el teorema de la probabilidad total.}$$
