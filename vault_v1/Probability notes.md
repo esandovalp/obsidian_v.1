@@ -29,3 +29,7 @@ $$$$
 
 
 $$\text{Find the value of }P(B^{c}|A) \text{ given that the following is true: } P(A|B) = P(A^{c}|B^{c})=p \text{ and that p = 0.95}$$
+
+$$ \frac{(0.05)P(B^{c})}{(0.90)P(B)+0.05} $$
+
+Simplify $$ (0.95)P(B)+(0.05)P(B^{c}) $$ 
