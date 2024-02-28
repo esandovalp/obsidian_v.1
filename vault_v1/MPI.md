@@ -1,5 +1,13 @@
-	#8semester #CS 
+#8semester #CS 
+*Message passing interface*
+- Fue diseñado *originalmente* para memoria compartida.
+# Por qué usar MPI 
+
+- Rendimiento 
+- Estandarización/Portabilidad
+- Funcionalidad
 # Código de prueba con MPI 
+
 ```cpp
 #include <iostream>
 #include "mpi.h"
@@ -18,10 +26,12 @@ int main(int argc, char * argv[]){
 }
 ```
 ## Compilarlo 
+
 ```bash
 mpic++ -o show.out test.cpp
 ```
 ## Correrlo
+
 Se puede cambiar el 4, no se muy bien que sea, pueden ser los threads
 ```bash
 mpirun -n 4 show.out
