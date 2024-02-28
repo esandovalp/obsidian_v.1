@@ -1,6 +1,8 @@
 #8semester #CS 
 *Message passing interface*
+
 - Fue diseñado *originalmente* para memoria compartida.
+- Manda mensajes de la computadora a la misma computadora, pero a otro proceso. 
 # Por qué usar MPI 
 
 - Rendimiento 
@@ -36,3 +38,8 @@ Se puede cambiar el 4, no se muy bien que sea, pueden ser los threads
 ```bash
 mpirun -n 4 show.out
 ```
+
+# Directivas
+
+- ```MPI_Send```: 
+- ```MPI_Rec```: define funciones call back, que no avanza hasta que recibe el mensaje. Comunicación no bloqueante. 
