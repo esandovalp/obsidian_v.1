@@ -1,4 +1,4 @@
-#8semester #CS 
+	#8semester #CS 
 # Código de prueba con MPI 
 ```cpp
 #include <iostream>
