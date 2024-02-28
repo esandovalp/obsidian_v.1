@@ -149,3 +149,5 @@ int main() {
 
 # Pasando argumentos en C++ 
 - El ```argc``` es 1 porque el primero es el nombre del ejecutable 
+
+Terminando de ver [[OpenMP]] empezamos con [[MPI]]

@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eefc49a001f27bad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a53cb203c5a416a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenMP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4281a664fd54cc14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MPI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -100,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability notes.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability notes.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability notes.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -161,23 +197,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "250a26e4c2543ea8",
+  "active": "4281a664fd54cc14",
   "lastOpenFiles": [
-    "Jerarquías.md",
+    "OpenMP.md",
+    "c++.md",
+    "MPI.md",
+    "Parallel Computing.md",
     "Probability notes.md",
+    "Jerarquías.md",
     "Pasted image 20240227085635.png",
     "Pasted image 20240227084725.png",
     "Min-max algorithm.md",
     "Propagación o satisfacción de restricciones.md",
-    "c++.md",
     "OpenMP Directives.md",
     "Pasted image 20240226134326.png",
-    "OpenMP.md",
     "Environment Variables.md",
     "OpenMP Libraries.md",
     "Apuntes Seminario de Legalidad y Ética.md",
-    "MPI.md",
-    "Parallel Computing.md",
     "Pasted image 20240222171012.png",
     "Pasted image 20240222170847.png",
     "Pasted image 20240221110502.png",
