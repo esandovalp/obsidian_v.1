@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4281a664fd54cc14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MPI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPI.md",
+                "file": "Probability notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MPI.md",
+                "file": "Probability notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MPI.md"
+                "file": "Probability notes.md"
               }
             }
           }
@@ -197,13 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4281a664fd54cc14",
+  "active": "250a26e4c2543ea8",
   "lastOpenFiles": [
-    "OpenMP.md",
     "c++.md",
+    "OpenMP.md",
+    "MPI.md",
     "Probability notes.md",
     "Jerarquías.md",
-    "MPI.md",
     "Untitled.md",
     "Parallel Computing.md",
     "Pasted image 20240227085635.png",

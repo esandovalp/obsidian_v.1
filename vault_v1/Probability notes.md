@@ -47,3 +47,10 @@ $$ 3) \text{ } 3b) \text{ Muestre que si } A \text{ y } B \text{ son independien
 $$ 4) \text{De acuerdo con el CDC (Center of Disease Control and Prevention) los hombres que fuman tienen 23 veces una probabilidad más alta de desarrollar cáncer de pulmón en comparación con los hombres que no fuman. Además de acuerdo al CDC 21.6% de los hombres en USA fuman. ¿Cuál es la probabiidad de que un hombre en USA sea fumador dado que desarrolló cáncer de pulmón?} $$
 
 $$ $$ 5) \text{ Enuncie y demuestre el teorema de la probabilidad total.}$$
+
+
+
+# Cosas útiles 
+
+$$ \text{Show that for all positive integers } n \text{ and }k \text{ with } n \geq k, \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$$
+$$ \begin{align*} \binom{n}{k} + \binom{n}{k-1} &= \frac{n!}{k!(n-k)!} + \frac{n!}{(k-1)!(n-k+1)!} \ &= \frac{n!(n-k+1)}{k!(n-k+1)!} + \frac{n!k}{k!(n-k+1)!} \ &= \frac{ n!(n-k+1) + n!k} {k!(n-k+1)!} \ &= \frac{n!(n+1)}{k!(n-k+1)!} \ &= \frac{(n+1)!}{k!(n-k+1)!} \ &= \binom{n+1}{k} \end{align*} $$
