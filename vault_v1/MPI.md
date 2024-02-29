@@ -59,4 +59,4 @@ mpirun -n 4 show.out
 - ```MPI_Comm_rank```: hace referencia al identificador. Se usa como ```MPI_Comm_rank(MPI_COMM_WORLD, &process_id);```
 
 
-$$ \text{If } \frac{1}{(n-1)!} =\frac{n}{n!} \text{, then is }\frac{1}{(n-k)!}=\frac{k}{n!} \text{ true?}$$
+$$ \text{Show that for all positive integers } n \text{ and }k \text{ with } n \geq k, \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$$
