@@ -57,4 +57,6 @@ mpirun -n 4 show.out
 - ```MPI_Comm_size```: es lo que indica con que grupo se va a comunicar, generalmente se usa como ```MPI_Comm_size(MPI_COMM_WORLD, &num_processes);```.
 	- ```MPI_COMM_WORLD```: es comunicarse con todos
 - ```MPI_Comm_rank```: hace referencia al identificador. Se usa como ```MPI_Comm_rank(MPI_COMM_WORLD, &process_id);```
-- 
+
+
+$$ \text{If } \frac{1}{(n-1)!} =\frac{n}{n!} \text{, then is }\frac{1}{(n-k)!}=\frac{k}{n!} \text{ true?}$$
