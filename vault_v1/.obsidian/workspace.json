@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14578541666f971b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI project tictactoe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -124,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability notes.md",
+                "file": "AI project tictactoe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability notes.md",
+                "file": "AI project tictactoe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability notes.md"
+                "file": "AI project tictactoe.md"
               }
             }
           }
@@ -185,12 +197,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "250a26e4c2543ea8",
+  "active": "14578541666f971b",
   "lastOpenFiles": [
+    "AI project tictactoe.md",
+    "Probability notes.md",
     "c++.md",
     "OpenMP.md",
     "MPI.md",
-    "Probability notes.md",
     "Jerarquías.md",
     "Untitled.md",
     "Parallel Computing.md",
@@ -218,7 +231,6 @@
     "Data warehouse.md",
     "Cloud Data Loss Prevention.md",
     "BigQuery.md",
-    "Cloud Storage & buckets.md",
     "technologyConsequencesTable.png",
     "Pasted image 20240210123851.png"
   ]
