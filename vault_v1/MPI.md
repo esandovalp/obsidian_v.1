@@ -41,7 +41,7 @@ int main (int argc, char *argv[]) {
 ## Compilarlo 
 
 ```bash
-mpic++ -o show.out mpi_hello_world.cpp
+mpic++ -o mpi_hello_world.out mpi_hello_world.cpp
 ```
 ## Correrlo
 
@@ -134,8 +134,10 @@ return 0;
 ```
 
 ```bash
-mpiexec -n 1 receiver.exe : -n 1 sender.exe
+mpiexec -n 1 receiver.out : -n 1 sender.out
 ```
 
 *Esto lo haremos solo una vez, generalmente los mensajes se mandan en un mismo archivo*
+
+![[Pasted image 20240229184847.png]]
 
