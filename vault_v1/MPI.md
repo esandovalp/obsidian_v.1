@@ -52,11 +52,12 @@ mpirun -n 4 show.out
 
 # Directivas
 
-- ```MPI_Send```: 
+- ```MPI_Send```: es el que manda
 - ```MPI_Rec```: define funciones call back, que no avanza hasta que recibe el mensaje. Comunicación no bloqueante. 
 - ```MPI_Comm_size```: es lo que indica con que grupo se va a comunicar, generalmente se usa como ```MPI_Comm_size(MPI_COMM_WORLD, &num_processes);```.
-	- ```MPI_COMM_WORLD```: es comunicarse con todos
+	- ```MPI_COMM_WORLD```: es comunicarse con todos, es el que usaremos más.
 - ```MPI_Comm_rank```: hace referencia al identificador. Se usa como ```MPI_Comm_rank(MPI_COMM_WORLD, &process_id);```
+- ```MPI_Recv```: es el que recibe
 
 
 $$ \text{Show that for all positive integers } n \text{ and }k \text{ with } n \geq k, \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$$
