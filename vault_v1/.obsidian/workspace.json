@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI project tictactoe.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI project tictactoe.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI project tictactoe.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -197,11 +197,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14578541666f971b",
+  "active": "eefc49a001f27bad",
   "lastOpenFiles": [
+    "c++.md",
     "AI project tictactoe.md",
     "Probability notes.md",
-    "c++.md",
     "OpenMP.md",
     "MPI.md",
     "Jerarquías.md",
