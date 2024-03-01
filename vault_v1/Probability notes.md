@@ -52,5 +52,7 @@ $$ $$ 5) \text{ Enuncie y demuestre el teorema de la probabilidad total.}$$
 
 # Cosas útiles 
 
+## Pascal Identity
 $$ \text{Show that for all positive integers } n \text{ and }k \text{ with } n \geq k, \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$$
 $$ \begin{align*} \binom{n}{k} + \binom{n}{k-1} &= \frac{n!}{k!(n-k)!} + \frac{n!}{(k-1)!(n-k+1)!} \ &= \frac{n!(n-k+1)}{k!(n-k+1)!} + \frac{n!k}{k!(n-k+1)!} \ &= \frac{ n!(n-k+1) + n!k} {k!(n-k+1)!} \ &= \frac{n!(n+1)}{k!(n-k+1)!} \ &= \frac{(n+1)!}{k!(n-k+1)!} \ &= \binom{n+1}{k} \end{align*} $$
+

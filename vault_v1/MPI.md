@@ -59,12 +59,6 @@ mpirun -n 4 show.out
 - ```MPI_Comm_rank```: hace referencia al identificador. Se usa como ```MPI_Comm_rank(MPI_COMM_WORLD, &process_id);```
 - ```MPI_Recv```: es el que recibe
 
-
-$$ \text{Show that for all positive integers } n \text{ and }k \text{ with } n \geq k, \binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$$
-$$ \begin{align*} \binom{n}{k} + \binom{n}{k-1} &= \frac{n!}{k!(n-k)!} + \frac{n!}{(k-1)!(n-k+1)!} \ &= \frac{n!(n-k+1)}{k!(n-k+1)!} + \frac{n!k}{k!(n-k+1)!} \ &= \frac{ n!(n-k+1) + n!k} {k!(n-k+1)!} \ &= \frac{n!(n+1)}{k!(n-k+1)!} \ &= \frac{(n+1)!}{k!(n-k+1)!} \ &= \binom{n+1}{k} \end{align*} $$
-
-# clase 29 02 
-
 # Rutinas de comunicación colectiva
 
 ## Clase sender
@@ -139,5 +133,6 @@ mpiexec -n 1 receiver.out : -n 1 sender.out
 
 *Esto lo haremos solo una vez, generalmente los mensajes se mandan en un mismo archivo*
 
-![[Pasted image 20240229184847.png]]
-
+![[Pasted image 20240229190608.png]]
+- Se comunica con la mitad de procesos, por eso es /2.
+- Los identificadores son los que te dicen quien acaba ejecutando a quien.
