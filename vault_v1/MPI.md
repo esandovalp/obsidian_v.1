@@ -136,3 +136,9 @@ mpiexec -n 1 receiver.out : -n 1 sender.out
 ![[Pasted image 20240229190608.png]]
 - Se comunica con la mitad de procesos, por eso es /2.
 - Los identificadores son los que te dicen quien acaba ejecutando a quien.
+
+# Ejercicio MPI roles A y roles B
+
+```cpp
+//solucion
+```
