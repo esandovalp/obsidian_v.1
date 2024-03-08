@@ -224,3 +224,23 @@ Se pueden hacer combinaciones entre los tres.
 
 - Si bueno y breve, dos veces bueno.
 
+## Oikos
+
+### Administración 
+
+Todo comunica: 
+- Voz 
+- Palabras
+- Ademanes
+- Postura
+- Gesticulación
+- Imagen
+
+### Recursos vocales 
+
+- **Volumen** (DB): intensidad  
+- **Tono** (Hz): frecuencia
+- **Timbre**: textura, color 
+- **Dicción** (Alta/baja definición): claridad
+- **Ritmo** (Cadencia): variación rápido/lento
+
