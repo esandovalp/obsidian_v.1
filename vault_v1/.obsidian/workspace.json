@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "a53cb203c5a416a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MPI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "14578541666f971b",
             "type": "leaf",
             "state": {
@@ -187,10 +175,10 @@
   },
   "active": "250a26e4c2543ea8",
   "lastOpenFiles": [
-    "AI project tictactoe.md",
     "MPI.md",
-    "OpenMP.md",
     "Probability notes.md",
+    "AI project tictactoe.md",
+    "OpenMP.md",
     "Jerarquías.md",
     "Pasted image 20240229190608.png",
     "Pasted image 20240229184847.png",
