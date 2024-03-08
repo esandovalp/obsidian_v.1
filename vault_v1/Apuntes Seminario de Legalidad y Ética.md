@@ -197,7 +197,7 @@ Se pueden hacer combinaciones entre los tres.
 1. Alpha Go le gana a Kasparov
 2. Explosión del Big Data
 3. Litografía Ultravioleta
-4. George Clinton avance en redes neuronales profundas
+4. Geoff Hinton avance en redes neuronales profundas
 
 **Evolución**
 
@@ -211,4 +211,16 @@ Se pueden hacer combinaciones entre los tres.
 4. Procesamiento
 	1. Litografía ultravioleta extrema
 5. Inversión de riesgo 
+	1. Capacidad de invertir que nunca habíamos tenido; inversión de riesgo. 
+
+# Comunicación 
+
+## ¿Cómo comunicarlo asertivamente? 
+
+## Economía del lenguaje 
+
+> It's all a matter of mental economy.
+> 			 Daniel Kahneman
+
+- Si bueno y breve, dos veces bueno.
 

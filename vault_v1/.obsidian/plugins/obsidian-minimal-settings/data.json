@@ -5,12 +5,12 @@
   "lightScheme": "minimal-flexoki-light",
   "darkScheme": "minimal-default-dark",
   "editorFont": "",
-  "lineHeight": 1.5,
+  "lineHeight": 1.45,
   "lineWidth": 40,
   "lineWidthWide": 50,
   "maxWidth": 88,
-  "textNormal": 16,
-  "textSmall": 13,
+  "textNormal": 18,
+  "textSmall": 15,
   "imgGrid": false,
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
@@ -31,6 +31,6 @@
   "useSystemTheme": true,
   "folding": true,
   "lineNumbers": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "devBlockWidth": false
 }
