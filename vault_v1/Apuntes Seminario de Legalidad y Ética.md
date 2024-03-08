@@ -182,4 +182,33 @@ Se pueden hacer combinaciones entre los tres.
 - Sesgos y [[auditorías algorítmicas]]
 
 *tarea: buscar auditorias algoritmicas en latam*
+*apuntes de esta última clase y de la primera de  ética*
+
+# Evolución Tecnológica
+
+## 4ta Revolución Tecnológica 
+
+*Melanie Mitchell (2021) ¿Por qué la IA es más difícil de lo que pensamos?*
+
+![[Pasted image 20240308103614.png]]
+
+### Donde estamos: 
+
+1. Alpha Go le gana a Kasparov
+2. Explosión del Big Data
+3. Litografía Ultravioleta
+4. George Clinton avance en redes neuronales profundas
+
+**Evolución**
+
+1. Comunicación 
+	1. Internet, Arpanet 
+	2. Open Source
+2. Recabación 
+	1. Big Data
+3. Almacenamiento
+	1. Nube
+4. Procesamiento
+	1. Litografía ultravioleta extrema
+5. Inversión de riesgo 
 

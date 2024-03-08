@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability notes.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability notes.md"
+                "file": "Apuntes Seminario de Legalidad y Ética.md"
               }
             }
           }
@@ -175,8 +175,9 @@
   },
   "active": "250a26e4c2543ea8",
   "lastOpenFiles": [
-    "MPI.md",
+    "Pasted image 20240308103614.png",
     "Probability notes.md",
+    "MPI.md",
     "AI project tictactoe.md",
     "OpenMP.md",
     "Jerarquías.md",
