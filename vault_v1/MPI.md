@@ -199,5 +199,74 @@ Process 5 received from left (4): 4 and from right (6): 6
 Process 4 received from left (3): 3 and from right (5): 5
 ```
 
-# ejercicio clase jueves 7 de marzo
+# Primes with MPI
+
+```cpp
+#include <iostream>
+#include <mpi.h>
+#include <cmath>
+#include <vector>
+#include <chrono>
+
+// Function to check if a number is prime
+bool isPrime(int n) {
+if (n <= 1) return false;
+if (n <= 3) return true;
+if (n % 2 == 0 || n % 3 == 0) return false;
+
+for (int i = 5; i * i <= n; i += 6) {
+	if (n % i == 0 || n % (i + 2) == 0) return false;
+}
+return true;
+}
+
+int main(int argc, char **argv) {
+	// Initialize the MPI environment
+	MPI_Init(&argc, &argv);
+	// Get the number of processes
+	int world_size;
+	MPI_Comm_size(MPI_COMM_WORLD, &world_size);
+
+	// Get the rank of the process
+	int world_rank;
+	MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
+	// Broadcast n to all processes
+	int n;
+	
+	if (world_rank == 0) {
+	// Assuming you pass the exponent as the first argument to the program
+	n = (argc > 1) ? std::atoi(argv[1]) : 2; // Default to 10^2 if no argument is provided
+	}
+	MPI_Bcast(&n, 1, MPI_INT, 0, MPI_COMM_WORLD);
+
+	// Calculate the range for each process
+	int range = std::pow(10, n);
+	int local_count = 0;
+	int global_count;
+
+	auto start = std::chrono::high_resolution_clock::now();
+	// Each process checks a subset of the range for primes
+	for (int i = world_rank + 2; i <= range; i += world_size) {
+		if (isPrime(i)) {
+		local_count++;
+		}
+	}
+
+	// Reduce all local counts into the global count
+	MPI_Reduce(&local_count, &global_count, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);  
+	auto finish = std::chrono::high_resolution_clock::now();
+	std::chrono::duration<double> elapsed = finish - start;
+	
+	// Process 0 prints the results
+	if (world_rank == 0) {
+		std::cout << "Range: [2, " << range << "]" << std::endl;
+		std::cout << "Prime numbers in range: " << global_count << std::endl;
+	std::cout << "Time taken: " << elapsed.count() << " seconds" << std::endl;
+}
+
+	// Finalize the MPI environment.
+	MPI_Finalize();
+	return 0;
+}
+```
 
