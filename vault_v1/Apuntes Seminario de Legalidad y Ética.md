@@ -237,10 +237,13 @@ Todo comunica:
 - Imagen
 
 ### Recursos vocales 
+*agregar al FODA*
 
 - **Volumen** (DB): intensidad  
 - **Tono** (Hz): frecuencia
-- **Timbre**: textura, color 
+- **Timbre**: textura, color. Como abres y cierras la boca.  
 - **Dicción** (Alta/baja definición): claridad
 - **Ritmo** (Cadencia): variación rápido/lento
+
+La personalidad son todos los elementos. 
 
