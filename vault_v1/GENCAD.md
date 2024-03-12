@@ -8,9 +8,9 @@ Hay dos implementaciones
 1. GENCAD-TB (Tall Buildings)
 2. GENCAD-FS (Feng Shui)
 
-## Primer esquema que sale en el documento 
+La idea es ver como se crea un esquema general para la representación.
 
-Casi es un árbol, tiene dos posibles interpretaciones. 
-
-
-
+Características
+- Tiene 66 casos 
+- Memoria de casos: en archie fue un árbol de decisión, también puede ser un arreglo en donde están los casos, en GENCAD es una lista. 
+- 
