@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e31b4f81726387ec",
+            "id": "d61d9bd185d0b0e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jerarquías.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "250a26e4c2543ea8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14578541666f971b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI project tictactoe.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes Seminario de Legalidad y Ética.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -173,14 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "250a26e4c2543ea8",
+  "active": "d61d9bd185d0b0e5",
   "lastOpenFiles": [
+    "Jerarquías.md",
+    "Apuntes Seminario de Legalidad y Ética.md",
     "Pasted image 20240308103614.png",
     "Probability notes.md",
     "MPI.md",
     "AI project tictactoe.md",
     "OpenMP.md",
-    "Jerarquías.md",
     "Pasted image 20240229190608.png",
     "Pasted image 20240229184847.png",
     "c++.md",
@@ -194,7 +170,6 @@
     "Pasted image 20240226134326.png",
     "Environment Variables.md",
     "OpenMP Libraries.md",
-    "Apuntes Seminario de Legalidad y Ética.md",
     "Pasted image 20240222171012.png",
     "Pasted image 20240222170847.png",
     "Pasted image 20240221110502.png",
@@ -209,7 +184,6 @@
     "Dataprep.md",
     "Data warehouse.md",
     "Cloud Data Loss Prevention.md",
-    "technologyConsequencesTable.png",
-    "Pasted image 20240210123851.png"
+    "technologyConsequencesTable.png"
   ]
 }
