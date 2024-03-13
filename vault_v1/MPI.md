@@ -270,3 +270,17 @@ int main(int argc, char **argv) {
 }
 ```
 
+## compile 
+```bash
+mpicxx -o mpi_prime mpi_prime.cpp
+```
+
+## output
+
+```bash
+mpiexec -np 4 ./mpi_prime 6
+Range: [2, 1000000]
+Prime numbers in range: 78498
+Time taken: 0.0130217 seconds
+```
+
