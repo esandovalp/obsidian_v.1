@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96d993ca59f0066e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistema de representacion basado en reglas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GENCAD.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GENCAD.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GENCAD.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -161,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f73930a6017f9d26",
+  "active": "d61d9bd185d0b0e5",
   "lastOpenFiles": [
+    "Sistema de representacion basado en reglas.md",
     "GENCAD.md",
     "MPI.md",
     "Jerarquías.md",
@@ -197,7 +209,6 @@
     "Transfer appliance.md",
     "Dataprep.md",
     "Data warehouse.md",
-    "Cloud Data Loss Prevention.md",
     "technologyConsequencesTable.png"
   ]
 }

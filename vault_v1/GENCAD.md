@@ -11,6 +11,9 @@ Hay dos implementaciones
 La idea es ver como se crea un esquema general para la representación.
 
 Características
-- Tiene 66 casos 
+- Tiene 66 casos (GENCAD-TB)
 - Memoria de casos: en archie fue un árbol de decisión, también puede ser un arreglo en donde están los casos, en GENCAD es una lista. 
-- 
+- GENCAD-FS: 12 casos, organizados en listas
+
+Otro sistema de representación: [[Sistema de representacion basado en reglas]]
+
