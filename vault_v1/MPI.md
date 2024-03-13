@@ -199,6 +199,53 @@ Process 5 received from left (4): 4 and from right (6): 6
 Process 4 received from left (3): 3 and from right (5): 5
 ```
 
+# Primes Serial
+```cpp
+#include <chrono>
+#include <cmath>
+#include <iostream>
+
+// Function to check if a number is prime
+bool isPrime(int n) {
+  if (n <= 1)
+    return false;
+  if (n <= 3)
+    return true;
+  if (n % 2 == 0 || n % 3 == 0)
+    return false;
+  for (int i = 5; i * i <= n; i += 6) {
+    if (n % i == 0 || n % (i + 2) == 0)
+      return false;
+  }
+  return true;
+}
+
+int main(int argc, char **argv) {
+  int n = (argc > 1) ? std::atoi(argv[1])
+                     : 2; // Default to 10^2 if no argument is provided
+  int range = std::pow(10, n);
+  int count = 0;
+
+  auto start = std::chrono::high_resolution_clock::now();
+
+  // Check each number in the range for primality
+  for (int i = 2; i <= range; ++i) {
+    if (isPrime(i)) {
+      ++count;
+    }
+  }
+
+  auto finish = std::chrono::high_resolution_clock::now();
+  std::chrono::duration<double> elapsed = finish - start;
+
+  std::cout << "Range: [2, " << range << "]" << std::endl;
+  std::cout << "Prime numbers in range: " << count << std::endl;
+  std::cout << "Time taken: " << elapsed.count() << " seconds" << std::endl;
+
+  return 0;
+}
+
+```
 # Primes with MPI
 
 ```cpp
@@ -286,14 +333,14 @@ Time taken: 0.0130217 seconds
 
 ## comparación (tiempo en segundos)
 
-| n   | serial     | mpi         | speed up | procesos mpi |
-| --- | ---------- | ----------- | -------- | ------------ |
-| 1   | 6.25e-07   | 3.125e-05   | x2?      | 4            |
-| 2   | 9.16e-07   | 3.6958e-05  | x2.5?    | 4            |
-| 3   | 7.625e-06  | 2.5667e-05  |          | 4            |
-| 4   | 0.000205   | 7.025e-05   |          | 4            |
-| 5   | 0.00365804 | 0.000634459 |          | 4            |
-| 6   | 0.0360119  | 0.0110806   |          | 4            |
-| 7   | 0.405107   | 0.228191    |          | 4            |
-| 8   | 9.43592    | 5.60618     |          | 4            |
-| 9   |            | 149.207     |          | 4            |
+| n   | serial     | mpi         | speed up | assign processes mpi |
+| --- | ---------- | ----------- | -------- | -------------------- |
+| 1   | 6.25e-07   | 3.125e-05   | 0.020    | 4                    |
+| 2   | 9.16e-07   | 3.6958e-05  | 0.024785 | 4                    |
+| 3   | 7.625e-06  | 2.5667e-05  | 0.297074 | 4                    |
+| 4   | 0.000205   | 7.025e-05   | 2.918149 | 4                    |
+| 5   | 0.00365804 | 0.000634459 | 5.765605 | 4                    |
+| 6   | 0.0360119  | 0.0110806   | 3.249995 | 4                    |
+| 7   | 0.405107   | 0.228191    | 1.775298 | 4                    |
+| 8   | 9.43592    | 5.60618     | 1.683128 | 4                    |
+| 9   | 257.398    | 149.207     | 1.725107 | 4                    |
