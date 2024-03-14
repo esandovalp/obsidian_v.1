@@ -32,19 +32,19 @@
             }
           },
           {
-            "id": "f73930a6017f9d26",
+            "id": "66e9306eb6489c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GENCAD.md",
+                "file": "Metodos de razonamiento.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tipos de problemas o de razonamiento.md",
+                "file": "Metodos de razonamiento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tipos de problemas o de razonamiento.md",
+                "file": "Metodos de razonamiento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tipos de problemas o de razonamiento.md"
+                "file": "Metodos de razonamiento.md"
               }
             }
           }
@@ -173,13 +173,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cfa9f926041cf22",
+  "active": "66e9306eb6489c03",
   "lastOpenFiles": [
     "Sistema de representacion basado en reglas.md",
     "Tipos de problemas o de razonamiento.md",
+    "Metodos de razonamiento.md",
+    "Inferencias.md",
+    "GENCAD.md",
     "sintomas.md",
     "Parallel Computing.md",
-    "GENCAD.md",
     "OpenMP.md",
     "MPI.md",
     "Jerarquías.md",
@@ -208,8 +210,6 @@
     "Protocolo TCP.md",
     "top priorities.md",
     "Dataplex.md",
-    "Google - Preparing for your Professional Data Engineer Journey.md",
-    "Transfer appliance.md",
     "technologyConsequencesTable.png"
   ]
 }

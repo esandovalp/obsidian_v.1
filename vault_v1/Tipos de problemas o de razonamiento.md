@@ -8,6 +8,8 @@ Dados [[sintomas]], identificar las causas del "problema".
 
 Especificar qué componentes, conectados de que manera, juntos van a lograr cumplir con alguna funcionalidad deseada sujeto a restricciones.
 
+También hay [[Metodos de razonamiento]]
+
 
 
 
