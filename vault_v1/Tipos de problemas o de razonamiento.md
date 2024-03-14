@@ -6,7 +6,7 @@ Especificar qué pasos, etapas, actividades, en qué orden, se necesita llevar a
 Dados [[sintomas]], identificar las causas del "problema". 
 # Diseño
 
-Especificar qué componentes, conectados de que manera, juntos van a lograr cumplir con alguna funcionalidad deseada.
+Especificar qué componentes, conectados de que manera, juntos van a lograr cumplir con alguna funcionalidad deseada sujeto a restricciones.
 
 
 
