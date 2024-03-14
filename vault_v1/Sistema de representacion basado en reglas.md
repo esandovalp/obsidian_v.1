@@ -15,3 +15,5 @@
 2. **Inducción**: encadenamiento hacia atrás, dirección contraria
 	1. Pre -> Post, seguirla en dirección inversa
 3. **Abducción**: agregar reglas al conocimiento que ya teníamos (con cautela). Agregar nuevo conocimiento más bien. 
+
+También hay [[Tipos de problemas o de razonamiento]]

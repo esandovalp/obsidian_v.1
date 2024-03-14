@@ -53,3 +53,4 @@ Se llega un punto en el que agregar más componentes no ayuda.
 - Para un uso eficiente necesitas conocer la estructura de la computadora en la que estás trabajando  
 - El CPU es ejecución generalizada, el GPU es ejecución especializada (es realmente un procesador)
 
+Podemos hacer paralelización en [[C++]] usando [[OpenMP]] y [[MPI]]
