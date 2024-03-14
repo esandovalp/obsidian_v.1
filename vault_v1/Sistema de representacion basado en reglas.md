@@ -1,14 +1,14 @@
-## Reglas procedurales 
+# Reglas procedurales 
 
 - Reglas vistas como instrucciones
 - Si se cumple 'x' haz 'y'
 
-## Reglas declarativas
+# Reglas declarativas
 
 - Se usan para capturar conocimiento causal. 
 - 'X' causa 'Y'
 
-### Inferencias
+## Inferencias
 
 1. **Deducción**: encadenamiento hacia delante, estamos siguiendo la fecha ->
 	1. Pre -> Post
