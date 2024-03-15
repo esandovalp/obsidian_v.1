@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "MPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "MPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "MPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodos de razonamiento.md"
+                "file": "MPI.md"
               }
             }
           }
@@ -175,9 +175,9 @@
   },
   "active": "66e9306eb6489c03",
   "lastOpenFiles": [
-    "Sistema de representacion basado en reglas.md",
-    "Tipos de problemas o de razonamiento.md",
     "Metodos de razonamiento.md",
+    "Tipos de problemas o de razonamiento.md",
+    "Sistema de representacion basado en reglas.md",
     "Inferencias.md",
     "GENCAD.md",
     "sintomas.md",
