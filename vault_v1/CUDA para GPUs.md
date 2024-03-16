@@ -6,4 +6,3 @@ Como el GPU sólo soporta con código compilado, lo que usaremos con python es "
 
 Usando el CPU cada core (y hay pocos) tiene asignada una tarea diferente. En el GPU con los hasta mil de cores más, cada uno de ellos corren la misma tarea, con datos diferentes.
 
-# 
