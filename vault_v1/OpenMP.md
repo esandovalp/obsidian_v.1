@@ -200,3 +200,5 @@ int main() {
 - ```long long int``` cuando vamos a trabajar con vectores muy grandes 
 
 Ahora procedemos con [[MPI]]
+
+[[Proyecto]]
