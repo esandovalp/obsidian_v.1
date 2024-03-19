@@ -102,12 +102,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c9d66942d0929fed",
@@ -184,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7077d9c7b7eab017",
+  "active": "9cabeb7fd8a27e9a",
   "lastOpenFiles": [
+    "Figure_1.png",
     "OpenMP.md",
     "Proyecto.md",
     "OpenMP Directives.md",
@@ -220,7 +221,6 @@
     "julia.md",
     "cpu threads.md",
     "auditorías algorítmicas.md",
-    "Protocolo TCP.md",
     "technologyConsequencesTable.png"
   ]
 }
