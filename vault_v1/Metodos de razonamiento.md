@@ -21,4 +21,6 @@ Conjunto de variables de importancia: estado
 
 - **RETRIEVE**: revisa/recupera en la memoria de casos qué casos son relevantes para el problema.
 - **REUSE**: reutiliza la información/casos en el nuevo problema, generalmente debe de ser adaptada y su nombre alterno es adaptación.
+- **REVISE**: evaluar la factibilidad de la solución propuesta
+- **RETAIN**: retención/aprendizaje de casos 
 * **PROPOSED SOLUTION**: se propone una solución que puede no ser la mejor, lo cual da lugar a más cambios o más adaptaciones.
