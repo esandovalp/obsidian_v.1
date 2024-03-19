@@ -24,3 +24,7 @@ Conjunto de variables de importancia: estado
 - **REVISE**: evaluar la factibilidad de la solución propuesta
 - **RETAIN**: retención/aprendizaje de casos 
 * **PROPOSED SOLUTION**: se propone una solución que puede no ser la mejor, lo cual da lugar a más cambios o más adaptaciones.
+
+## Router
+
+Tipo de razonamiento: planeación 
