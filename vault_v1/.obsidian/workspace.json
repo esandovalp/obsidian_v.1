@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "CUDA para GPUs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85d33aa319f8e7c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NUMBA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "NUMBA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "NUMBA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodos de razonamiento.md"
+                "file": "NUMBA.md"
               }
             }
           }
@@ -160,13 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c5901705ff6d0d8",
+  "active": "85d33aa319f8e7c7",
   "lastOpenFiles": [
+    "CUDA para GPUs.md",
+    "NUMBA.md",
+    "Metodos de razonamiento.md",
     "IMG_0869.jpeg",
     "Tipos de problemas o de razonamiento.md",
-    "Metodos de razonamiento.md",
     "Sistema de representacion basado en reglas.md",
-    "CUDA para GPUs.md",
     "OpenMP Directives.md",
     "Proyecto.md",
     "OpenMP.md",
@@ -194,7 +207,6 @@
     "OpenMP Libraries.md",
     "Pasted image 20240222171012.png",
     "Pasted image 20240222170847.png",
-    "Pasted image 20240221110502.png",
     "julia.md",
     "cpu threads.md",
     "auditorías algorítmicas.md"
