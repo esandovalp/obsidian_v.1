@@ -1,3 +1,14 @@
 {
-  "minimal-style@@code-size": "14px"
+  "minimal-style@@code-size": "14px",
+  "minimal-advanced@@font-ui-small": 14,
+  "minimal-style@@h1-font": "Inter",
+  "minimal-style@@h2-font": "Inter",
+  "minimal-style@@h1-size": "1.250em",
+  "minimal-style@@h2-size": "1.125em",
+  "minimal-style@@h3-font": "Inter",
+  "minimal-style@@h4-font": "Inter",
+  "minimal-style@@h5-font": "Inter",
+  "minimal-style@@h4-variant": "normal",
+  "minimal-style@@h5-variant": "normal",
+  "minimal-style@@h6-variant": "normal"
 }

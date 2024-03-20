@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e460b299acdc459",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1d55a875770a35b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "julia.md",
-                "mode": "preview",
+                "file": "Parallel Computing.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -159,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e460b299acdc459",
+  "active": "1d55a875770a35b7",
   "lastOpenFiles": [
     "julia.md",
     "Parallel Computing.md",

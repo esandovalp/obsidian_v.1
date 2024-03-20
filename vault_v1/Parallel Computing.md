@@ -1,6 +1,10 @@
  #8semester
+
 **Repositorio de la clase:** https://github.com/octavio-gutierrez/computoparalelo2024a 
+
 # ¿Qué es? 
+
+**Def:** El cómputo paralelo es el uso simultáneo de múltiples recursos de cómputo para resolver un problema.
 
 La computación paralela es el proceso de descomponer problemas de gran envergadura en partes más pequeñas, independientes y a menudo similares, que pueden ser ejecutadas simultáneamente por varios procesadores que se comunican a través de una memoria compartida, y cuyos resultados se combinan al finalizar como parte de un algoritmo global.
 # Objetivo:
@@ -43,7 +47,10 @@ Se llega un punto en el que agregar más componentes no ayuda.
 
 **Ejecución concurrente:** aquello que caracteriza a dos procesos en los que no sabes cuales se ejecuta primero o después. Ocurre en un solo lugar. Tiene que ver los tiempos y en donde se ejecuta
 **Ejecución Paralela:** es un subconjunto de la concurrencia. Todo programa concurrente es paralelo, pero no todo paralelo es concurrente. Uso de recursos para acelerar. 
-#### Cosas que dijo
+
+Mientras que la ejecución concurrente se centra en gestionar múltiples tareas de manera eficiente en entornos con recursos limitados (a menudo a través de la ilusión de simultaneidad, esto es, el sistema operativo cambia rápidamente entre tareas), la ejecución paralela se aprovecha de hardware específico para realizar múltiples operaciones exactamente al mismo tiempo, maximizando el rendimiento en procesos que pueden ser divididos adecuadamente.
+
+## Cosas que dijo
 - Se pueden agregar varios hilos a un proceso. 
 - El tiempo que tiene un proceso se divide en los hilos
 - Es bueno para tener múltiples clientes en una API, ya que esta es una base de datos
