@@ -28,3 +28,6 @@ Conjunto de variables de importancia: estado
 ## Router
 
 Tipo de razonamiento: planeación 
+- RBM: Razonamiento basado en el mapa
+- RBC: Razonamiento basado en casos
+![[IMG_0869.jpeg]]
