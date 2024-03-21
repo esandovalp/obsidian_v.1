@@ -36,7 +36,7 @@ Bloque de código ejecutado exclusivamente por un hilo
 ```
 # Directiva BARRIER
 
-Obliga a todos los hilos a esperarse los unos a los otros 
+Obliga a todos los hilos a esperarse los unos a los otros. Esta es la que evita condiciones de carrera
 ```cpp
 #pragma omp barrier newline
 ```

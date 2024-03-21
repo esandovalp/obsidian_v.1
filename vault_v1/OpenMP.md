@@ -12,7 +12,7 @@
 - Cada hilo puede tener variables compartidas y locales
 - **Compiler Directives, Library Routines, and Environment Variables:** The core of OpenMP consists of:
     - **[[OpenMP Directives]]:** Special instructions you add to your code to tell the compiler how to parallelize sections.
-    - **[[OpenMP Libraries]]:** Functions that help manage threads and parallel execution.
+    - **[[OpenMP Liraries]]:** Functions that help manage threads and parallel execution.
     - **[[Environment Variables]]:** Settings that influence OpenMP's behavior during program execution.
 
 # Funcionamiento de los hilos en OpenMP 

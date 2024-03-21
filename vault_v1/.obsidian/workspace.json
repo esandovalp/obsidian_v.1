@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "566f1c438fb1962f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a513fd0f96495b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenMP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f25218af9020c75c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenMP Directives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "OpenMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parallel Computing.md",
+                "file": "OpenMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parallel Computing.md"
+                "file": "OpenMP.md"
               }
             }
           }
@@ -147,10 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d55a875770a35b7",
+  "active": "a513fd0f96495b48",
   "lastOpenFiles": [
-    "julia.md",
+    "OpenMP Directives.md",
+    "OpenMP.md",
+    "OpenMP Libraries.md",
+    "c++.md",
     "Parallel Computing.md",
+    "Protocolo TCP.md",
+    "julia.md",
     "Untitled.canvas",
     "Tipos de problemas o de razonamiento.md",
     "CUDA para GPUs.md",
@@ -158,9 +200,7 @@
     "Metodos de razonamiento.md",
     "IMG_0869.jpeg",
     "Sistema de representacion basado en reglas.md",
-    "OpenMP Directives.md",
     "Proyecto.md",
-    "OpenMP.md",
     "Figure_1.png",
     "MPI.md",
     "Inferencias.md",
@@ -173,7 +213,6 @@
     "AI project tictactoe.md",
     "Pasted image 20240229190608.png",
     "Pasted image 20240229184847.png",
-    "c++.md",
     "Untitled.md",
     "Pasted image 20240227085635.png",
     "Pasted image 20240227084725.png",
@@ -181,7 +220,6 @@
     "Propagación o satisfacción de restricciones.md",
     "Pasted image 20240226134326.png",
     "Environment Variables.md",
-    "OpenMP Libraries.md",
     "Pasted image 20240222171012.png",
     "Pasted image 20240222170847.png",
     "cpu threads.md"
