@@ -24,6 +24,7 @@ Se llega un punto en el que agregar más componentes no ayuda.
 
 > Nunca hacer print en una paralelización, es pesado. Nunca hacer.
 ## Tipos de paralelización
+
 - Un proceso con múltiples hilos.
 - Múltiples procesos para múltiples hilos
 - Los workers son los que nos interesan, son los que trabajan.
@@ -51,6 +52,7 @@ Se llega un punto en el que agregar más componentes no ayuda.
 Mientras que la ejecución concurrente se centra en gestionar múltiples tareas de manera eficiente en entornos con recursos limitados (a menudo a través de la ilusión de simultaneidad, esto es, el sistema operativo cambia rápidamente entre tareas), la ejecución paralela se aprovecha de hardware específico para realizar múltiples operaciones exactamente al mismo tiempo, maximizando el rendimiento en procesos que pueden ser divididos adecuadamente.
 
 ## Cosas que dijo
+
 - Se pueden agregar varios hilos a un proceso. 
 - El tiempo que tiene un proceso se divide en los hilos
 - Es bueno para tener múltiples clientes en una API, ya que esta es una base de datos

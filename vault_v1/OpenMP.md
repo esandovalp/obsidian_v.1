@@ -26,6 +26,7 @@ acceder diferentes datos y atravesar diferentes rutas de ejecución.
 - “Portable”
 
 # Clase 
+
 - Tenemos que trabajar con la reserva dinámica del arreglo, para que se mande al heap (la RAM lo limita) y no al Stack.
 	- El Heap va creciendo dinámicamente
 
@@ -138,6 +139,7 @@ Execution time second parallel loop: 0.000781 seconds
 		```
 
 **Problemas que pueden ocurrir con esta solución:**
+
 - Dependiendo del tamaño de los for's anidados, no todos los hilos pueden llegar a utilizarse. La solución para esto es utilizar: ```#pragma omp parallel for collapse(num_for)```: si son dos ```for``` los hace uno. 
 ## Floyd - Marshall 
 - El algoritmo puede usar tres ```for```anidados, por lo que para eficientar el algoritmo, usamos estos "pragmas".
@@ -145,7 +147,10 @@ Execution time second parallel loop: 0.000781 seconds
 
 - ```#pragma omp for schedule(dynamic, chunk_size)```: el ```chunk_size``` es el tamaño de la carga, se usa cuando utilizamos una operación dinámica. 
 	- ```clustering[region]```: cuando sabes que algún hilo terminará más rápido. 
+	- Se usa cuando algunas iteraciones tomarán más tiempo. 
+	- El parámetro ```chunk_size``` especifica el número de iteraciones que cada hilo debe recibir a la vez
 - ```#pragma omp for schedule(static, chunk_size)```: 
+	- La división del trabajo no ocurre dinámicamente como el pasado, sino que se especifica al inicio y no cambia.
 ```cpp
 #include <iostream>
 #include <omp.h>
