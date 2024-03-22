@@ -316,5 +316,6 @@ Diagnóstico actual:
 
 **Asertividad:** es saber pedir las cosas, por ejemplo, pidiendo un aumento. 
 
-
+**Logos:** Persuasión, What? -> So What? (relevancia) -> Now What? (call to action)
+Tarea siguiente clase: pensar empresa social, elevator pitch 
 
