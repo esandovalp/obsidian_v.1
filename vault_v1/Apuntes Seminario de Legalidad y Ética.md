@@ -270,7 +270,51 @@ Para llegar a la AGI Conectando simbolismo y conectismo (*Gary Marcus*)
 
 # 1.2 Pensamiento ecosistémico 
 
+Dos cosmovisiones
+1. Mecánica:
+	1. Se ve a la naturaleza como un mecanismo 
+	2. Física newtoniana es el paradigma científico
+	3. Objeto de estudio: partes individuales y fuerzas (el todo es la suma de las partes)
+	4. Causalidad: lineal 
+	5. Interacción entre partes: contigüidad, discreción, digital
+	6. Dinámica temporal: Fijismo (la especie que ves hoy es la misma que verás dentro de miles de años)
+	7. Orden - caos: predecible
+	8. Error: anomalia corregible 
+	9. Objetivo: optimización 
+	10. Autoridad: relojero, verticalidad
+	11. Antropología: engrane - átomo
+	12. Sociedad: física social: agregación de átomos
+	13. Estado: maquinaria tecnocrática
+	14. Política (razón de estado): poder centralizado y vertical
+	15. Economía (razón de mercado: acumulación y administración de la riqueza nacional
+	16. Derecho (racionalidad penal: coercitivo: lógica punitiva
+Diagnóstico actual: 
+	1. Ambiental: consumimos los recursos de 1.5 planetas tierra.
+	2. Social: la desigualdad es inevitable y deseable, actualmente la desigualdad es extrema
+	3. Individual: el mecanicismo ha traído mucha infelicidad 
 
+1. Orgánica 
+*Arthur Tansley*, definición de ecosistemas
+	1. Naturaleza: organismo 
+	2. Paradigma científico: Biología 
+	3. Objeto de estudio: relaciones entre partes (todo > suma)
+	4. Causalidad: reticular (ecológica)
+	5. Interacción entre partes: continuidad
+	6. Dinámica temporal: evolución
+	7. Orden - caos: < impredecible: azar, **emergencia**, caos
+	8. Ordenador: auto-organización mixta: horizontal y vertical
+	9. Anomalía: Irregularidad: domesticable
+	10. Objetivo: florecimiento  
+	11. Antropología: 
+	12. Sociedad:
+	13. Estado:
+	14. Política
+	15. Economía
+	16. Derecho: 
+
+# Parte de comunicación 
+
+**Asertividad:** es saber pedir las cosas, por ejemplo, pidiendo un aumento. 
 
 
 

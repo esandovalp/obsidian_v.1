@@ -1,8 +1,8 @@
 {
-  "accentColor": "#88269c",
-  "theme": "moonstone",
+  "accentColor": "#a3baf0",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
   "baseFontSize": 16,
-  "textFontFamily": "Canela Text",
+  "textFontFamily": "Courier",
   "interfaceFontFamily": "Inter"
 }
