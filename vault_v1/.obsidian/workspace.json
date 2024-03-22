@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5c9cbfef25b6acf6",
+        "id": "1237eb384d518f95",
         "type": "tabs",
         "children": [
           {
-            "id": "1d55a875770a35b7",
+            "id": "43318aa26597e734",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Parallel Computing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "566f1c438fb1962f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a513fd0f96495b48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f25218af9020c75c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenMP Directives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c858763663d2f2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMP Directives.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenMP Directives.md",
+                "file": "Apuntes Seminario de Legalidad y Ética.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenMP Directives.md"
+                "file": "Apuntes Seminario de Legalidad y Ética.md"
               }
             }
           }
@@ -196,18 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f25218af9020c75c",
+  "active": "9cabeb7fd8a27e9a",
   "lastOpenFiles": [
-    "OpenMP.md",
-    "c++.md",
     "Metodos de razonamiento.md",
+    "Parallel Computing.md",
+    "c++.md",
+    "OpenMP.md",
     "OpenMP Directives.md",
     "NUMBA.md",
     "CUDA para GPUs.md",
     "Proyecto.md",
     "Figure_1.png",
     "Untitled.canvas",
-    "Parallel Computing.md",
     "OpenMP Libraries.md",
     "Protocolo TCP.md",
     "julia.md",

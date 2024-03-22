@@ -247,3 +247,7 @@ Todo comunica:
 
 La personalidad son todos los elementos. 
 
+# 4ta Revolución Industrial 
+
+
+
