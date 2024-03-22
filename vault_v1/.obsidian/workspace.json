@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "OpenMP Directives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodos de razonamiento.md",
+                "file": "OpenMP Directives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodos de razonamiento.md"
+                "file": "OpenMP Directives.md"
               }
             }
           }
@@ -196,17 +196,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9cabeb7fd8a27e9a",
+  "active": "f25218af9020c75c",
   "lastOpenFiles": [
     "OpenMP.md",
+    "c++.md",
+    "Metodos de razonamiento.md",
     "OpenMP Directives.md",
     "NUMBA.md",
     "CUDA para GPUs.md",
     "Proyecto.md",
     "Figure_1.png",
-    "Metodos de razonamiento.md",
     "Untitled.canvas",
-    "c++.md",
     "Parallel Computing.md",
     "OpenMP Libraries.md",
     "Protocolo TCP.md",
