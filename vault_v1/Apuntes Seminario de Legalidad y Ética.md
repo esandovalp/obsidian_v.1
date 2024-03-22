@@ -185,7 +185,7 @@ Se pueden hacer combinaciones entre los tres.
 *apuntes de esta última clase y de la primera de  ética*
 
 # Evolución Tecnológica
-
+*8 de marzo*
 ## 4ta Revolución Tecnológica 
 
 *Melanie Mitchell (2021) ¿Por qué la IA es más difícil de lo que pensamos?*
@@ -248,6 +248,29 @@ Todo comunica:
 La personalidad son todos los elementos. 
 
 # 4ta Revolución Industrial 
+
+## Criterios para hablar de AGI:
+
+1. Test de Turing 
+2. Emulación de nuestras capacidades de razonar y sentir 
+3. Capacidad de múltiples funciones
+4. Último reto de complejidad humana autoconciencia
+
+## Singularidad en IA
+
+1. Desarrollo humano
+2. Loop de retroalimentación 
+3. *completar*
+
+## AGI
+
+Para llegar a la AGI Conectando simbolismo y conectismo (*Gary Marcus*)
+*Timnit Gebru*: crítica a Google, ¿de dónde sale el dinero?.
+- Mucho dinero es público, busca que la IA se use para atender problemas sociales.
+
+# 1.2 Pensamiento ecosistémico 
+
+
 
 
 
